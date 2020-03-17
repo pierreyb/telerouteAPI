@@ -5,16 +5,21 @@ parameters:
   - name:
     content:
 content_markdown: >-
-  You need to be authenticated for all API requests. You can generate an API key
-  in your developer dashboard.
+  The Freight Exchange endpoints make use of JWT ([JSON Web
+  Tokens](https://jwt.io/)) for secure authentication and authorization. This
+  token is to be provided in the Authorization header of each HTTP request using
+  the '[Bearer'](https://oauth.net/2/bearer-tokens/) scheme.
 
 
-  Add the API key to all requests as a GET parameter.
+  In order to use the Freight Exchange API’s you need a business account with
+  proper access. If you do not have your credentials, please address to
+  Teleroute Integration team.
+
+  {: .info}
 
 
-  Nothing will work unless you include this API key
-
-  {: .error}
+  You need to be authenticated for all API requests (except the authentication
+  one).&nbsp;
 left_code_blocks:
   - code_block:
     title:
