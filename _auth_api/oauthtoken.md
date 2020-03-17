@@ -5,18 +5,17 @@ type: put
 description: Generate a bearer token
 parameters:
   - name: client_id
-    content: Application Id. Fixed value.
-    value: freightexchange
+    content: Application Id. Fixed value : "freightexchange"
   - name: client_secret
-    content: secret
+    content: Fixed value : "secret"
   - name: scope
-    content: any
+    content: The scopes which you want to request authorization for. Value : "any"
   - name: grant_type
-    content: password
+    content: Type of token you apply for. Fixed Value : "password"
   - name: username
-    content: username
+    content: User application username.
   - name: password
-    content: password
+    content: User application password.
 content_markdown:
 left_code_blocks:
   - code_block:
