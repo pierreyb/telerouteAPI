@@ -1,59 +1,41 @@
-# ----
-# Site
-
 title: Teleroute API documentation
 description: Teleroute API documentation.
-url: https://example.com
-google_analytics_key:
+url: 'https://example.com'
+google_analytics_key: null
 permalink: pretty
-baseurl:
-
-# -----
-# Build
-
+baseurl: null
 timezone: Etc/UTC
-
 collections:
   documentation:
     title: Documentation
     position_number: 1
   api:
-    title: APIs
+    title: Authentication API
     position_number: 2
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-
 exclude:
   - readme.md
   - LICENSE
-
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+      path: ''
     values:
       layout: default
-  -
-    scope:
-      type: "documentation"
+  - scope:
+      type: documentation
     values:
       _hide_content: true
-  -
-    scope:
-      type: "api"
+  - scope:
+      type: api
     values:
       _hide_content: true
-
-# -----------
-# CloudCannon
-
 types:
   - get
   - put
   - delete
   - post
-
 languages:
   bash: Bash
   c: C
@@ -65,7 +47,6 @@ languages:
   php: PHP
   python: Python
   ruby: Ruby
-
 _options:
   content_markdown:
     format: p h4 h5 h6
