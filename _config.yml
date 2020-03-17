@@ -10,7 +10,7 @@ collections:
     title: Documentation
     position_number: 1
   api:
-    title: Authentication API
+    title: APIs
     position_number: 2
 plugins:
   - jekyll-sitemap
