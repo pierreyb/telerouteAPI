@@ -13,20 +13,28 @@ content_markdown: >-
   servers (these are rare).&nbsp;
 
 
-  | &nbsp; | &nbsp; | &nbsp; |
+  | Code | Name | Description |
 
   | --- | --- | --- |
+  
+  | 200 | OK | Successful operation | 
 
-  | &nbsp; | &nbsp; | &nbsp; |
+  | 201 | Created | Resource is successfully added
 
-  | &nbsp; | &nbsp; | &nbsp; |
+  | 400 | Bad Request | Malformed request or missing parameters
 
-  | &nbsp; | &nbsp; | &nbsp; |
+  | 401 | Unauthorized | Authentication failed. Invalid token.
 
-  | &nbsp; | &nbsp; | &nbsp; |
+  | 403 | Forbidden | 	No permission to this resource.
+
+  | 404 | Not Found | 	The specified resource is not found or does not exist
+
+  | 405 | Method Not Allowed | Method is not allowed or not implemented on this endpoint
+
+  | 500 | Internal Server Error | Server problem or bad request that cannot be parsed
 
 
-  All errors will return JSON in the following format:
+  
 left_code_blocks:
   - code_block: |-
       {
