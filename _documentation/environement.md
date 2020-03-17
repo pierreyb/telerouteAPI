@@ -7,9 +7,10 @@ parameters:
 content_markdown: |-
   &nbsp;
 
-  | **Environment** | **URL (\*)** |
-  | Demo | https://api.fx.demo.wktransportservices.com |
+  || **Environment** || **URL** ||
   | Production | https://api.fx.wktransportservices.com |
+  | Demo | https://api.fx.demo.wktransportservices.com |
+
 left_code_blocks:
   - code_block:
     title:
