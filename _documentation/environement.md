@@ -8,7 +8,7 @@ content_markdown: >-
 
   | **Environment** | **URL** | **Description** |
 
-  | --- | --- |
+  | --- | --- | --- |
 
   | Live | https://api.fx.wktransportservices.com | Production data |
 
