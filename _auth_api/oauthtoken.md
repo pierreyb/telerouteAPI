@@ -1,6 +1,6 @@
 ---
 title: /oauth/token
-position_number: 1.1
+position_number: 2
 type: put
 description: generate a bearer token
 parameters:
