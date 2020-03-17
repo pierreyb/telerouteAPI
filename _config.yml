@@ -21,6 +21,9 @@ collections:
   vehicle_posting_api:
     title: Vehicle posting API
     position_number: 5
+  api:
+    title: API
+    position_number: 6
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
