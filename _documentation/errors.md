@@ -4,13 +4,27 @@ position_number: 4
 parameters:
   - name:
     content:
-content_markdown: |-
-  | Code | Name | Description |
+content_markdown: >-
+  The freight exchange uses conventional HTTP response codes to indicate the
+  success or failure of an API request. In general: Codes in the "***2xx***"
+  range indicate success. Codes in the "***4xx"***&nbsp;range indicate an error
+  that failed given the information provided (e.g., a required parameter was
+  omitted.). Codes in the "***5xx***" range indicate an error with Telertoue's
+  servers (these are rare).&nbsp;
+
+
+  | &nbsp; | &nbsp; | &nbsp; |
+
   | --- | --- | --- |
-  | 200 | OK | Success |
-  | 201 | Created | Creation Successful |
-  | 400 | Bad Request | We could not process that action |
-  | 403 | Forbidden | We couldn't authenticate you |
+
+  | &nbsp; | &nbsp; | &nbsp; |
+
+  | &nbsp; | &nbsp; | &nbsp; |
+
+  | &nbsp; | &nbsp; | &nbsp; |
+
+  | &nbsp; | &nbsp; | &nbsp; |
+
 
   All errors will return JSON in the following format:
 left_code_blocks:
