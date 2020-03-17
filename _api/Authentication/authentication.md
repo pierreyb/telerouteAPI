@@ -1,5 +1,5 @@
 ---
-title: Authentication
+title: /Authentication
 position_number: 1
 parameters:
   - name: client_id
