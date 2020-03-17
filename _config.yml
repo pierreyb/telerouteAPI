@@ -15,12 +15,12 @@ collections:
   freight_posting_api:
     title: Freight posting API
     position_number: 3
-  freight_searching_api:
-    title: Freight searching API
-    position_number: 4
-  vehicle_posting_api:
-    title: Vehicle posting API
-    position_number: 5
+#  freight_searching_api:
+#    title: Freight searching API
+#    position_number: 4
+#  vehicle_posting_api:
+##    title: Vehicle posting API
+#    position_number: 5
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
