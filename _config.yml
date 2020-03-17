@@ -21,9 +21,6 @@ collections:
   vehicle_posting_api:
     title: Vehicle posting API
     position_number: 5
-  api:
-    title: API
-    position_number: 6
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -41,6 +38,18 @@ defaults:
       _hide_content: true
   - scope:
       type: auth_api
+    values:
+      _hide_content: true
+  - scope:
+      type: freight_posting_api
+    values:
+      _hide_content: true
+  - scope:
+      type: freight_searching_api
+    values:
+      _hide_content: true
+  - scope:
+      type: vehicle_posting_api
     values:
       _hide_content: true
 types:
