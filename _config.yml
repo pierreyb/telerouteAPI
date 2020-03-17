@@ -40,8 +40,7 @@ defaults:
     values:
       _hide_content: true
   - scope:
-      type: 
-       - auth_api
+      type: auth_api
     values:
       _hide_content: true
 types:
