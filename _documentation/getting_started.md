@@ -16,7 +16,7 @@ content_markdown: >-
   the main functions (CRUD) of the Teleroute freight exchange service.
 
 
-  In this documentation, the following code apply
+  In this documentation, the following color convention apply
 
 
   Success message.
