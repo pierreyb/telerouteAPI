@@ -5,7 +5,6 @@ parameters:
   - name:
     content:
 content_markdown: >-
-&nbsp;
 
   | **Environment** | **URL** | **Description** |
 
