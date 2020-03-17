@@ -16,32 +16,27 @@ content_markdown: >-
   | Code | Name | Description |
 
   | --- | --- | --- |
-  
-  | 200 | OK | Successful operation | 
 
-  | 201 | Created | Resource is successfully added
+  | 200 | OK | Successful operation |
 
-  | 400 | Bad Request | Malformed request or missing parameters
+  | 201 | Created | Resource is successfully added |
 
-  | 401 | Unauthorized | Authentication failed. Invalid token.
+  | 400 | Bad Request | Malformed request or missing parameters |
 
-  | 403 | Forbidden | 	No permission to this resource.
+  | 401 | Unauthorized | Authentication failed. Invalid token. |
 
-  | 404 | Not Found | 	The specified resource is not found or does not exist
+  | 403 | Forbidden | No permission to this resource. |
 
-  | 405 | Method Not Allowed | Method is not allowed or not implemented on this endpoint
+  | 404 | Not Found | The specified resource is not found or does not exist |
 
-  | 500 | Internal Server Error | Server problem or bad request that cannot be parsed
+  | 405 | Method Not Allowed | Method is not allowed or not implemented on this
+  endpoint |
 
-
-  
+  | 500 | Internal Server Error | Server problem or bad request that cannot be
+  parsed |
 left_code_blocks:
-  - code_block: |-
-      {
-        "error": true,
-        "message": "error message here"
-      }
-    title: Response
+  - code_block:
+    title:
     language: json
 right_code_blocks:
   - code_block:
