@@ -13,7 +13,7 @@ collections:
     title: Authentication
     position_number: 2
   freight_posting_api:
-    title: Freight posting API
+    title: Freight posting
     position_number: 3
 plugins:
   - jekyll-sitemap
