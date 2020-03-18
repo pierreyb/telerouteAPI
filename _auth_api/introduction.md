@@ -13,7 +13,7 @@ content_markdown: >-
   #### Endpoint
 
 
-  * POST /oauth/token
+  * POST /user/token
 left_code_blocks:
   - code_block:
     title:
