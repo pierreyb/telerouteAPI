@@ -1,6 +1,7 @@
 ---
 title: 
 position_number:
+types:
 parameters:
   - name:
     content:
