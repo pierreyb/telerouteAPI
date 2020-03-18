@@ -26,20 +26,17 @@ content_markdown: >-
 
   | access\_token | &nbsp; | JSON Web Token |
 
-  | token\_type | Bearer |
-  [https://oauth.net/2/bearer-tokens/](https://oauth.net/2/bearer-tokens/) |
+  | token\_type | Bearer | [https://oauth.net/2/bearer-tokens/](https://oauth.net/2/bearer-tokens/) |
 
   | refresh\_token | &nbsp; | JSON Web Token |
 
-  | expires\_in | 3599 | Expiration time, expressed in seconds (Unix time stamp)
-  |
+  | expires\_in | 3599 | Expiration time, expressed in seconds (Unix time stamp) |
 
   | scope | any | &nbsp; |
 
   | user.fname | &nbsp; | User First Name |
 
-  | user.a\_uplft\_init | &nbsp; | Initial counter for Auto uplift feature.
-  Default value set to 1. |
+  | user.a\_uplft\_init | &nbsp; | Initial counter for Auto uplift feature. Default value set to 1. |
 
   | user.cmp\_post\_code | &nbsp; | User Company Postal Code |
 
@@ -65,7 +62,7 @@ content_markdown: >-
 
   | user.sp\_langs | &nbsp; | User Spoken Languages |
 
-  | user.a\_uplft | &nbsp; | Auto uplift enabled for user. 1 = true, 0 = false.   |
+  | user.a\_uplft | &nbsp; | Auto uplift enabled for user. 1 = true, 0 = false. |
 
   | jti | &nbsp; | JWT id |
 
