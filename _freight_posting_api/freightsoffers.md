@@ -6,7 +6,7 @@ types:
 parameters:
   - name:
     content:
-content_markdown:
+content_markdown: Create a new freight offer.
 left_code_blocks:
   - code_block:
     title:
