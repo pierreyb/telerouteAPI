@@ -22,8 +22,14 @@ left_code_blocks:
     title: Response
     language: javascript
 right_code_blocks:
-  - code_block: "curl -X POST \\\r\n'https://api.fx.demo.wktransportservices.com/oauth/token?client_id=freightexchange&client_secret=secret&scope=any&grant_type=password&username={username}&password={password}' \\\r\n  -H 'Accept: application/json' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n"
-    title: Example
+  - code_block: >
+      curl -X POST \
+
+      'https://api.fx.demo.wktransportservices.com/oauth/token?client_id=freightexchange&client_secret=secret&scope=any&grant_type=password&username={username}&password={password}'
+      \
+        -H 'Accept: application/json' \
+        -H 'Cache-Control: no-cache' \
+    title: Request bearer token
     language: bash
 ---
 
