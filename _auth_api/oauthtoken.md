@@ -65,19 +65,9 @@ content_markdown: >-
 
   | user.sp\_langs | &nbsp; | User Spoken Languages |
 
-  | user.a\_uplft | &nbsp; | Auto uplift enabled for user. 1 = true, 0 = false.
-  |
+  | user.a\_uplft | &nbsp; | Auto uplift enabled for user. 1 = true, 0 = false.   |
 
   | jti | &nbsp; | JWT id |
-
-  | &nbsp; | &nbsp; | &nbsp; |
-
-  | --- | --- | --- |
-
-  | &nbsp; | &nbsp; | &nbsp; |
-
-  | &nbsp; | &nbsp; | &nbsp; |
-
 
   &nbsp;
 left_code_blocks:
