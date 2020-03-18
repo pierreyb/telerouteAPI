@@ -21,6 +21,8 @@ content_markdown: >-
 
 
   | **Key** | **Value** | **Description** |
+  
+  | --- | --- | --- |
 
   | access\_token | &nbsp; | JSON Web Token |
 
