@@ -6,7 +6,7 @@ description: Create a freight offer
 parameters:
   - name:
     content:
-content_markdown: Create a new freight offer.
+content_markdown: 
 left_code_blocks:
   - code_block:
     title:
