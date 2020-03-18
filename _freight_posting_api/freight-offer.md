@@ -21,7 +21,7 @@ content_markdown: >-
   package and the required certificates for the transportation).
 
 
-  #### Endpoint
+  ##### Endpoint
 
 
   * POST /freights/offers
@@ -32,7 +32,11 @@ content_markdown: >-
 
   * DELETE /freights/offers/:externalId
 
-  * &nbsp;
+
+  ##### The freight offer model
+
+
+  &nbsp;
 left_code_blocks:
   - code_block:
     title:
