@@ -22,11 +22,18 @@ content_markdown: >-
   package and the required certificates for the transportation).
 
 
-  #### Endpoint #### 
+  #### Endpoint
+
 
   * POST /freights/offers
-  * PUT /freights//offers/\{externalId\}
-  * GET /freights/offers/ 
+
+  * GET /freights/offers/:id
+
+  * PUT /freights/offers/:externalId&nbsp;
+
+  * DELETE /freights/offers/:externalId
+
+  * &nbsp;
 left_code_blocks:
   - code_block:
     title:
