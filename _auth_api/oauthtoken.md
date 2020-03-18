@@ -77,7 +77,7 @@ right_code_blocks:
   - code_block: >
       curl -X POST \
 
-      'https://api.fx.demo.wktransportservices.com/oauth/token?client_id=freightexchange&client_secret=secret&scope=any&grant_type=password&username={username}&password={password}'
+      'https://api.fx.demo.wktransportservices.com/user/token?client_id=freightexchange&client_secret=secret&scope=any&grant_type=password&username={username}&password={password}'
       \
         -H 'Accept: application/json' \
         -H 'Cache-Control: no-cache' \
