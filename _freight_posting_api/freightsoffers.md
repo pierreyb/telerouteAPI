@@ -1,8 +1,8 @@
 ---
 title: /freight/offers
 position_number: 2
-types:
-  - post
+type: post
+description: Create a freight offer
 parameters:
   - name:
     content:
