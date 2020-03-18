@@ -14,29 +14,6 @@ content_markdown: >-
   The interface is designed to make Teleroute Freight Exchange integration
   easier for TMS/FMS developers. It provides secured access in JSON format to
   the main functions (CRUD) of the Teleroute freight exchange service.
-
-
-  In this documentation, the following color convention apply
-
-
-  Success message.
-
-  {: .success}
-
-
-  Informative message.
-
-  {: .info}
-
-
-  Warning message.
-
-  {: .warning}
-
-
-  Error message.
-
-  {: .error}
 left_code_blocks:
   - code_block:
     title:
