@@ -9,13 +9,13 @@ content_markdown: >-
   and development purpose and a live environment.
 
 
-  | **Environment** | **URL** | **Description** |
+  | **Environment** | **Base URL** | 
 
-  | --- | --- | --- |
+  | --- | --- | 
 
-  | Live | https://api.fx.wktransportservices.com | Production data |
+  | Live | https://api.fx.wktransportservices.com | 
 
-  | Demo | https://api.fx.demo.wktransportservices.com | Sandbox data |
+  | Demo | https://api.fx.demo.wktransportservices.com | 
 left_code_blocks:
   - code_block:
     title:
