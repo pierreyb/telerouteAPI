@@ -1,5 +1,5 @@
 ---
-title: /freights/offers
+title: /freight/offers
 position_number: 2
 types:
   - post
