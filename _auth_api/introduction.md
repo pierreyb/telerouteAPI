@@ -10,16 +10,13 @@ content_markdown: >-
   done via POST method, passing token parameters via the URL.
 
 
-  #### Endpoint
-
-
-  * POST /user/token
-left_code_blocks:
+request_code_block:
   - code_block:
-    title:
-    language: json
-right_code_blocks:
-  - code_block:
-    title:
-    language:
+    title: Endpoint
+    
+response_code_blocks:
+    title: ENDPOINTS
+    endpoints:
+      - method: POST
+        resource: /user/token
 ---
