@@ -245,20 +245,20 @@ content_markdown: |-
   | DE-28 |  |
   | DE-49 |  |
   | DK | Denmark |
-  | DK-AA | âÃrhus Amt |
+  | DK-AA |  |
   | DK-BHA | Bornholms Amt |
   | DK-FA | Fyns Amt |
   | DK-FBA | Frederiksborg Amt |
-  | DK-KBH | Kââbenhavn |
+  | DK-KBH |  |
   | DK-NJA | Nordjyllands Amt |
   | DK-RA | Ribe Amt |
-  | DK-RKA | Ringkââbing Amt |
+  | DK-RKA |  |
   | DK-ROA | Roskilde Amt |
-  | DK-SJA | Sâânderjyllands Amt |
-  | DK-SSA | Storstrââms Amt |
+  | DK-SJA |  |
+  | DK-SSA |  |
   | DK-VEA | Vejle Amt |
   | DK-VIA | Viborg Amt |
-  | DK-VSA | VestsjâÂ¶llands Amt |
+  | DK-VSA |  |
   | ES | Spain |
   | ES-E1 | Aragón |
   | ES-HU | Huesca |
@@ -341,26 +341,26 @@ content_markdown: |-
   | FR-33 | Gironde |
   | FR-40 | Landes |
   | FR-47 | Lot-et-Garonne |
-  | FR-64 | PyrâÂ©nâÂ©es-Atlantiques |
+  | FR-64 | Pyrenees-Atlantiques |
   | FR-AU | Auvergne Limousin |
   | FR-03 | Allier |
   | FR-15 | Cantal |
-  | FR-19 | CorrâÂ®ze |
+  | FR-19 | Correze |
   | FR-23 | Creuse |
   | FR-43 | Haute-Loire |
-  | FR-63 | Puy-de-DâÂ¥me |
+  | FR-63 | Puy-de-Dome |
   | FR-87 | Haute-Vienne |
   | FR-BF | Bourgogne fr.-Comte |
-  | FR-21 | CâÂ¥te-d'or |
+  | FR-21 | Cote-d'or |
   | FR-25 | Doubs |
   | FR-39 | Jura |
-  | FR-58 | NiâÂ®vre |
-  | FR-70 | Haute-SaâÂ¥ne |
-  | FR-71 | SaâÂ¥ne-et-Loire |
+  | FR-58 | Nievre |
+  | FR-70 | Haute-Saine |
+  | FR-71 | Saone-et-Loire |
   | FR-89 | Yonne |
   | FR-BR | Bretagne |
-  | FR-22 | CâÂ¥tes-d'Armor |
-  | FR-29 | FinistâÂ®re |
+  | FR-22 | Cotes-d'Armor |
+  | FR-29 | Finistere |
   | FR-35 | Ille-et-Vilaine |
   | FR-56 | Morbihan |
   | FR-CE | Centre |
@@ -375,13 +375,13 @@ content_markdown: |-
   | FR-10 | Aube |
   | FR-51 | Marne |
   | FR-52 | Haute-Marne |
-  | FR-MP | Midi PyrâÂ©nâÂ©es |
-  | FR-09 | AriâÂ®ge |
+  | FR-MP | Midi Pyrenees |
+  | FR-09 | Ariege |
   | FR-12 | Aveyron |
   | FR-31 | Haute-Garonne |
   | FR-32 | Gers |
   | FR-46 | Lot |
-  | FR-65 | Hautes-PyrâÂ©nâÂ©es |
+  | FR-65 | Hautes-Pyrenees |
   | FR-81 | Tarn |
   | FR-82 | Tarn-et-Garonne |
   | FR-NO | Normandie |
@@ -399,40 +399,40 @@ content_markdown: |-
   | FR-OC | Languedoc |
   | FR-11 | Aude |
   | FR-30 | Gard |
-  | FR-34 | HâÂ©rault |
-  | FR-48 | LozâÂ®re |
-  | FR-66 | PyrâÂ©nâÂ©es-Orientales |
+  | FR-34 | Herault |
+  | FR-48 | Lozere |
+  | FR-66 | Pyrenees-Orientales |
   | FR-PC | Poitou Charente |
   | FR-16 | Charente |
   | FR-17 | Charente-Maritime |
-  | FR-79 | Deux-SâÂ®vres |
+  | FR-79 | Deux-Sevres |
   | FR-86 | Vienne |
   | FR-PL | Pays de Loire |
   | FR-44 | Loire-Atlantique |
   | FR-49 | Maine-et-Loire |
   | FR-53 | Mayenne |
   | FR-72 | Sarthe |
-  | FR-85 | VendâÂ©e |
-  | FR-PR | Provence CâÂ¥te d'Azur |
+  | FR-85 | Vendee |
+  | FR-PR | Provence Cote d'Azur |
   | FR-04 | Alpes de Haute-Prove |
   | FR-05 | Hautes-Alpes |
   | FR-06 | Alpes-Maritimes |
-  | FR-13 | Bouches-du-RhâÂ¥ne |
+  | FR-13 | Bouches-du-Rhone |
   | FR-20 | Corse |
   | FR-2A | Corse |
   | FR-2B | Corse |
   | FR-83 | Var |
   | FR-84 | Vaucluse |
-  | FR-RA | RhâÂ¥ne-Alpes |
+  | FR-RA | Rhone-Alpes |
   | FR-01 | Ain |
-  | FR-07 | ArdâÂ®che |
-  | FR-26 | DrâÂ¥me |
-  | FR-38 | IsâÂ®re |
+  | FR-07 | Ardeche |
+  | FR-26 | Drome |
+  | FR-38 | Isere |
   | FR-42 | Loire |
-  | FR-69 | RhâÂ¥ne |
+  | FR-69 | Rhone |
   | FR-73 | Savoie |
   | FR-74 | Haute-Savoie |
-  | FR-RP | RâÂ©gion Parisienne |
+  | FR-RP | Region Parisienne |
   | FR-75 | Ville de Paris |
   | FR-77 | Seine-et-Marne |
   | FR-78 | Yvelines |
@@ -442,12 +442,12 @@ content_markdown: |-
   | FR-94 | Val-de-Marne |
   | FR-95 | Val-d'Oise |
   | FI | Finland |
-  | FI-AL | Ahvenanmaan LâÂ§âÂ§ni |
-  | FI-ESL | EtelâÂ§-Suomen LâÂ§âÂ§ni |
-  | FI-ITS | ItâÂ§-Suomen LâÂ§âÂ§ni |
-  | FI-LL | Lapin LâÂ§âÂ§ni |
-  | FI-LSL | LâÂ§nsi-Suomen LâÂ§âÂ§ni |
-  | FI-OL | Oulun LâÂ§âÂ§ni |
+  | FI-AL |  |
+  | FI-ESL |  |
+  | FI-ITS |  |
+  | FI-LL |  |
+  | FI-LSL |  |
+  | FI-OL |  |
   | LI | Liechtenstein |
   | GB | United Kingdom of Great Britain and Northern Ireland (the) |
   | GB-1 | West Country |
