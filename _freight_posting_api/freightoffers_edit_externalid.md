@@ -11,11 +11,14 @@ content_markdown: >-
   updated, its 'externalId' remains the same while a new 'offerId' will be
   generated
 left_code_blocks:
-  - code_block: 
-    title:
-    language:
-right_code_blocks:
   - code_block:
     title:
     language:
+right_code_blocks:
+  - code_block: |-
+      curl --location --request PUT
+            'https://api.fx.wktransportservices.com/freight/offers/aaaasfbf4mgaf' \
+            --header 'Authorization: Bearer eyJh...' 
+    title: Request example
+    language: bash
 ---
