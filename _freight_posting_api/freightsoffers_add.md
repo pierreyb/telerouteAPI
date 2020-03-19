@@ -7,7 +7,7 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  In order to create a new freight, the following information is mandatory:
+  In order to create a new freight, the following information are mandatory:
 
   * pickup address
   * pickup interval start date (time is optional)
