@@ -12,7 +12,7 @@ content_markdown: >-
   In general:
 
 
-  * Codes in the "***2xx***" range indicate success.
+  * Codes in the `2xx` range indicate success.
 
   * Codes in the "***4xx"***&nbsp;range indicate an error that failed given the
   information provided (e.g., a required parameter was omitted.).
