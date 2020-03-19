@@ -105,13 +105,9 @@ content_markdown: >-
 
   | latitude | 3 | &nbsp; | Float | &nbsp; | 1 | between -90 and +90 | &nbsp; |
 
-  | longitude | 3 | &nbsp; | Float | &nbsp; | 1 | between -180 and 180 | &nbsp;
-  |
+  | longitude | 3 | &nbsp; | Float | &nbsp; | 1 | between -180 and 180 | &nbsp; |
 
-  | regions | 1 | List of regions | Enum | &nbsp; | 0\..10 | &nbsp; |
-  [Teleroutes
-  regions.xls](https://portal.wkts.eu/download/attachments/71672562/Teleroute%20Regions.xlsx)
-  |
+  | regions | 1 | List of regions | Enum | &nbsp; | 0\..10 | &nbsp; |   |
 
 
   &nbsp;
