@@ -1,9 +1,6 @@
 ---
 title: Getting Started
 position_number: 1
-parameters:
-  - name:
-    content:
 content_markdown: >-
   This document describes the REST web service interface to the Teleroute
   freight exchange service. A REST API is a way to programmatically transfer
@@ -14,10 +11,6 @@ content_markdown: >-
   The interface is designed to make Teleroute Freight Exchange integration
   easier for TMS/FMS developers. It provides secured access in JSON format to
   the main functions (CRUD) of the Teleroute freight exchange service.
-left_code_blocks:
-  - code_block: test
-    title: titre
-    language:
 right_code_blocks:
   - code_block:
     title:
