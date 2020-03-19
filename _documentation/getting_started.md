@@ -15,7 +15,7 @@ content_markdown: >-
   easier for TMS/FMS developers. It provides secured access in JSON format to
   the main functions (CRUD) of the Teleroute freight exchange service.
 left_code_blocks:
-  - code_block:
+  - code_block: test
     title:
     language:
 right_code_blocks:
