@@ -6,7 +6,10 @@ description: Update a freight offer based on an external ID
 parameters:
   - name:
     content:
-content_markdown:
+content_markdown: >-
+  Update of the offer is referenced via the 'externalId'. When an offer is
+  updated, its 'externalId' remains the same while a new 'offerId' will be
+  generated
 left_code_blocks:
   - code_block:
     title:
