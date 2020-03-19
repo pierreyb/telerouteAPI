@@ -1,8 +1,8 @@
 ---
-title: '/freight/offer/:id'
+title: '/freight/offer/:externalId'
 position_number: 2
-types:
-  - put
+type: put
+description: Create a freight offer based on an external ID
 parameters:
   - name:
     content:
