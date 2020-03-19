@@ -15,6 +15,9 @@ collections:
   freight_posting_api:
     title: Freight posting
     position_number: 3
+  reference_data:
+    title: Reference data
+    position_number: 99
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
