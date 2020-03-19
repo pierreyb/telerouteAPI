@@ -16,7 +16,7 @@ content_markdown: >-
   the main functions (CRUD) of the Teleroute freight exchange service.
 left_code_blocks:
   - code_block: test
-    title:
+    title: titre
     language:
 right_code_blocks:
   - code_block:
