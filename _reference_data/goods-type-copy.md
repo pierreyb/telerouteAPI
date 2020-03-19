@@ -1,8 +1,8 @@
 ---
-title: Goods type
-position_number: 2
+title: Vehicles type
+position_number: 4
 content_markdown: |-
-  List of goods type
+  List of vehicle type
 
   | Code | Description |
   | --- | --- |
