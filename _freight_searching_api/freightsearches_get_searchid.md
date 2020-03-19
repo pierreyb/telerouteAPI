@@ -1,8 +1,8 @@
 ---
 title: '/freight/searches/:searchId'
 position_number: 4
-type: put
-description: Update the information of a search
+type: get
+description: Retrieve the information of 1 search
 parameters:
   - name:
     content:
