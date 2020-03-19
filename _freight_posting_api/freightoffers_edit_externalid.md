@@ -14,7 +14,7 @@ left_code_blocks:
   - code_block: >-
     curl --location --request PUT
       'https://api.fx.wktransportservices.com/freight/offers/aaaasfbf4mgaf' \
-      --header 'Authorization: Bearer eyJh...' \
+      --header 'Authorization: Bearer eyJh...' 
 
     title: Request example
     language: bash
