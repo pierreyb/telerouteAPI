@@ -632,12 +632,12 @@ content_markdown: |-
   | NO-FIN | Finnmark |
   | NO-HE | Hedemark |
   | NO-HO | Hordaland |
-  | NO-MR | Mââre Og Romsdal |
+  | NO-MR |  |
   | NO-NO | Nordland |
   | NO-NT | Nord Trondelag |
   | NO-OP | Oppland |
   | NO-OSL | Oslo |
-  | NO-OST | âÃ²stfold |
+  | NO-OST |  |
   | NO-RO | Rogaland |
   | NO-SF | Sogn Og Fjordane |
   | NO-ST | Sor Trondelag |
@@ -871,27 +871,27 @@ content_markdown: |-
   | SM | San Marino |
   | RU | Russian Federation (the) |
   | SE | Sweden |
-  | SE-BL | Blekinge LâÂ§n |
-  | SE-DL | Dalarnas LâÂ§n |
-  | SE-GL | GâÂ§vleborgs LâÂ§n |
-  | SE-GOL | Gotlands LâÂ§n |
-  | SE-HL | Hallands LâÂ§n |
-  | SE-JA | JâÂ§mtlands LâÂ§n |
-  | SE-JL | Jâânkââpings LâÂ§n |
-  | SE-KBL | Kronobergs LâÂ§n |
-  | SE-KL | Kalmar LâÂ§n |
-  | SE-NL | Norrbottens LâÂ§n |
-  | SE-OGL | âÃ±stra Gââtalands LâÂ§n |
-  | SE-OL | âÃ±rebro LâÂ§n |
-  | SE-SL | Skââ¢ne LâÂ§n |
-  | SE-SOL | Sââdermanlands LâÂ§n |
-  | SE-STL | Stockholms LâÂ§n |
-  | SE-UL | Uppsala LâÂ§n |
-  | SE-VBL | VâÂ§sterbottens LâÂ§n |
-  | SE-VGL | VâÂ§stra Gââtalands LâÂ§n |
-  | SE-VL | VâÂ§rmlands LâÂ§n |
-  | SE-VML | VâÂ§stmanlands LâÂ§n |
-  | SE-VN | VâÂ§sternorrlands LâÂ§n |
+  | SE-BL |  |
+  | SE-DL |  |
+  | SE-GL |  |
+  | SE-GOL |  |
+  | SE-HL |  |
+  | SE-JA |  |
+  | SE-JL |  |
+  | SE-KBL |  |
+  | SE-KL |  |
+  | SE-NL |  |
+  | SE-OGL |  |
+  | SE-OL |  |
+  | SE-SL |  |
+  | SE-SOL |  |
+  | SE-STL |  |
+  | SE-UL |  |
+  | SE-VBL |  |
+  | SE-VGL |  |
+  | SE-VL |  |
+  | SE-VML |  |
+  | SE-VN |  |
   | SK | Slovakia |
   | SI | Slovenia |
   | RS | Serbia |
