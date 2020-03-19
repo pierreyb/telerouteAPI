@@ -6,7 +6,7 @@ description: Create a freight offer based on an external ID
 parameters:
   - name:
     content:
-content_markdown:
+content_markdown: Same constraint as the creation of an offer.
 left_code_blocks:
   - code_block:
     title:
