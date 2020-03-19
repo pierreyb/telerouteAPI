@@ -6,12 +6,12 @@ content_markdown: |-
 
   | **Vehicle Type** | **Type of Goods** |
   | --- | --- |
-  | VAN | GENERAL_MERCHANDISE |
-  | TAUTLINER | GENERAL_MERCHANDISE |
-  | BOX | GENERAL_MERCHANDISE |
-  | OPEN | GENERAL_MERCHANDISE |
-  | TRAX\_WALKING\_FLOOR | GENERAL_MERCHANDISE |
-  | COIL | GENERAL_MERCHANDISE |
+  | VAN | General merchandise |
+  | TAUTLINER | General merchandise |
+  | BOX | General merchandise |
+  | OPEN | General merchandise |
+  | TRAX\_WALKING\_FLOOR | General merchandise |
+  | COIL | General merchandise |
   | PUBLIC\_WORKS\_TIPPERS | Solid Bulk |
   | CEREAL\_TIPPER | Solid Bulk |
   | STEEL\_TROUGH | Solid Bulk |
