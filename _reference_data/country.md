@@ -5,194 +5,49 @@ position_number: 1
 
 Supported countries list :
 
-* **Country Code**
-
-  **Country Name**
-
-  **Country Code**
-
-  **Country Name**
-
-  AT
-
-  Austria
-
-  GR
-
-  Greece
-
-  BE
-
-  Belgium
-
-  HU
-
-  Hungary
-
-  FR
-
-  France
-
-  HR
-
-  Croatia
-
-  DE
-
-  Germany
-
-  IS
-
-  Iceland
-
-  IT
-
-  Italy
-
-  IE
-
-  Ireland
-
-  LU
-
-  Luxembourg
-
-  LV
-
-  Latvia
-
-  NL
-
-  Netherlands
-
-  LI
-
-  Liechtenstein
-
-  PL
-
-  Poland
-
-  LT
-
-  Lithuania
-
-  PT
-
-  Portugal
-
-  MK
-
-  Macedonia, Republic of
-
-  RO
-
-  Romania
-
-  MT
-
-  Malta
-
-  ES
-
-  Spain
-
-  MD
-
-  Moldova
-
-  CH
-
-  Switzerland
-
-  MC
-
-  Monaco
-
-  GB
-
-  United Kingdom
-
-  ME
-
-  Montenegro
-
-  AL
-
-  Albania
-
-  NO
-
-  Norway
-
-  AD
-
-  Andorra
-
-  SM
-
-  San Marino
-
-  BY
-
-  Belarus
-
-  RS
-
-  Serbia
-
-  BA
-
-  Bosnia and Herzegovina
-
-  SK
-
-  Slovakia
-
-  BG
-
-  Bulgaria
-
-  SI
-
-  Slovenia
-
-  CY
-
-  Cyprus
-
-  SE
-
-  Sweden
-
-  CZ
-
-  Czech Republic
-
-  TR
-
-  Turkey
-
-  DK
-
-  Denmark
-
-  UA
-
-  Ukraine
-
-  EE
-
-  Estonia
-
-  GI
-
-  Gibraltar
-
-  FI
-
-  Finland
-
-  RU
-
-  Russian Federation
+* AT : Austria
+* BE : Belgium
+* FR : France
+* DE : Germany
+* IT : Italy
+* LU : Luxembourg
+* NL : Netherlands
+* PL : Poland
+* PT : Portugal
+* RO : Romania
+* ES : Spain
+* CH : Switzerland
+* GB : United Kingdom
+* AL : Albania
+* AD : Andorra
+* BY : Belarus
+* BA : Bosnia and Herzegovina
+* BG : Bulgaria
+* CY : Cyprus
+* CZ : Czech Republic
+* DK : Denmark
+* EE : Estonia
+* FI : Finland
+* GR : Greece
+* HU : Hungary
+* HR : Croatia
+* IS : Iceland
+* IE : Ireland
+* LV : Latvia
+* LI : Liechtenstein
+* LT : Lithuania
+* MK : Macedonia, Republic of
+* MT : Malta
+* MD : Moldova
+* MC : Monaco
+* ME : Montenegro
+* NO : Norway
+* SM : San Marino
+* RS : Serbia
+* SK : Slovakia
+* SI : Slovenia
+* SE : Sweden
+* TR : Turkey
+* UA : Ukraine
+* GI : Gibraltar
+* RU : Russian Federation
