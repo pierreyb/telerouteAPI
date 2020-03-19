@@ -69,7 +69,6 @@ content_markdown: >-
   |
 
   | jti | &nbsp; | JWT id |
-left_code_blocks:
 right_code_blocks:
   - code_block: >
       curl -X POST \
