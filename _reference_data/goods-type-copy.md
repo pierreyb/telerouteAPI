@@ -2,15 +2,16 @@
 title: Vehicles type
 position_number: 4
 content_markdown: |-
-  List of vehicle type
+  List of vehicle type and link with the type of goods 
 
   | **Vehicle Type** | **Type of Goods** |
-  | VAN | Packaged |
-  | TAUTLINER | Packaged |
-  | BOX | Packaged |
-  | OPEN | Packaged |
-  | TRAX\_WALKING\_FLOOR | Packaged |
-  | COIL | Packaged |
+  | --- | --- |
+  | VAN | GENERAL_MERCHANDISE |
+  | TAUTLINER | GENERAL_MERCHANDISE |
+  | BOX | GENERAL_MERCHANDISE |
+  | OPEN | GENERAL_MERCHANDISE |
+  | TRAX\_WALKING\_FLOOR | GENERAL_MERCHANDISE |
+  | COIL | GENERAL_MERCHANDISE |
   | PUBLIC\_WORKS\_TIPPERS | Solid Bulk |
   | CEREAL\_TIPPER | Solid Bulk |
   | STEEL\_TROUGH | Solid Bulk |
@@ -26,5 +27,7 @@ content_markdown: |-
   | REFRIGERATED | Temperature Controlled |
   | FREEZER | Temperature Controlled |
   | MULTI\_TEMPERATURE | Temperature Controlled |
+  
+  
 ---
 
