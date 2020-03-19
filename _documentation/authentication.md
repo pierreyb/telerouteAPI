@@ -20,10 +20,6 @@ content_markdown: >-
 
   You need to be authenticated for all API requests (except the authentication
   one).&nbsp;
-left_code_blocks:
-  - code_block:
-    title:
-    language:
 right_code_blocks:
   - code_block:
     title:
