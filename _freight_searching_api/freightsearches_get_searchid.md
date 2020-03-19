@@ -13,14 +13,11 @@ left_code_blocks:
     language:
 right_code_blocks:
   - code_block: >-
-      curl --location --request PUT
+      curl --location --request GET
       'https://api.fx.wktransportservices.com/freight/searches/185565' \
 
-      --header 'Authorization: Bearer eyJh...' \
+      --header 'Authorization: Bearer eyJh...'
 
-      --header 'Content-Type: application/json' \
-
-      --data-raw '{...}'
     title: Request example
     language: bash
 ---
