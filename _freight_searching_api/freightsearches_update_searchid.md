@@ -1,6 +1,6 @@
 ---
 title: '/freight/searches/:searchId'
-position_number: 4
+position_number: 5
 type: put
 description: Update the information of a search
 parameters:
