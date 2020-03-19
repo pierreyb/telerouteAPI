@@ -6,7 +6,16 @@ description: Create a freight offer
 parameters:
   - name:
     content:
-content_markdown: 
+content_markdown: |-
+  In order to create a new freight, the following information is mandatory:
+
+  * pickup address
+  * pickup interval start date (time is optional)
+  * delivery address
+  * freight description netWeight
+  * freight description length (except for bulk)
+  * freight description volume (only for bulk)
+  * owner login
 left_code_blocks:
   - code_block:
     title:
