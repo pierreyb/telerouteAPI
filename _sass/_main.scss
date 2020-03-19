@@ -295,18 +295,18 @@ hr {
 .doc-content {
 	border: 0;
 	border-bottom: 1px solid transparent;
-	border-image: linear-gradient(to right,	#eee 0%,#eee 60%,#333333 60%);
-	-moz-border-image: -moz-linear-gradient(left,	#eee 0%, #eee 60%, #333333 60%);
-	-webkit-border-image: -webkit-linear-gradient(left,	#eee 0%,#eee 60%,#333333 60%);
+	border-image: linear-gradient(to right,	#eee 0%,#eee 100%,#333333 100%);
+	-moz-border-image: -moz-linear-gradient(left,	#eee 0%, #eee 100%, #333333 100%);
+	-webkit-border-image: -webkit-linear-gradient(left,	#eee 0%,#eee 100%,#333333 100%);
 	border-image-slice: 1;
 	padding: 30px 0;
 	background: #ffffff; /* Old browsers */
-	background: -moz-linear-gradient(left,	#ffffff 0%, #ffffff 60%, #232323 60%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(60%,#ffffff), color-stop(60%,#232323)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(left,	#ffffff 0%,#ffffff 60%,#232323 60%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(left,	#ffffff 0%,#ffffff 60%,#232323 60%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(left,	#ffffff 0%,#ffffff 60%,#232323 60%); /* IE10+ */
-	background: linear-gradient(to right,	#ffffff 0%,#ffffff 60%,#232323 60%); /* W3C */
+	background: -moz-linear-gradient(left,	#ffffff 0%, #ffffff 100%, #232323 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(100%,#ffffff), color-stop(100%,#232323)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,	#ffffff 0%,#ffffff 100%,#232323 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,	#ffffff 0%,#ffffff 100%,#232323 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,	#ffffff 0%,#ffffff 100%,#232323 100%); /* IE10+ */
+	background: linear-gradient(to right,	#ffffff 0%,#ffffff 100%,#232323 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#232323',GradientType=1 ); /* IE6-9 */
 }
 
@@ -351,7 +351,7 @@ hr {
 	}
 
 	pre {
-		/* background: black; */
+		background: black;
 		padding: 10px;
 		border-radius: 5px;
 	}
