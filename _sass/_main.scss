@@ -331,7 +331,9 @@ hr {
 	box-sizing: border-box;				 /* Opera/IE 8+ */
 
 	code {
-		color: #fff;
+		border-color: #eee;
+		border-radius: 5px;
+		background-color: #eee;
 	}
 
 	pre {
@@ -351,9 +353,7 @@ hr {
 	box-sizing: border-box;				 /* Opera/IE 8+ */
 
 	code {
-		border-color: #eee;
-		border-radius: 5px;
-		background-color: #eee;
+		color: #fff;
 	}
 
 	pre {
