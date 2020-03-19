@@ -1,8 +1,8 @@
 ---
 title: '/freight/searches/:searchId'
-position_number: 4
-type: get
-description: Retrieve the information of 1 search
+position_number: 6
+type: delete
+description: Delete a search
 parameters:
   - name:
     content:
@@ -13,7 +13,7 @@ left_code_blocks:
     language:
 right_code_blocks:
   - code_block: >-
-      curl --location --request GET
+      curl --location --request DELETE
       'https://api.fx.wktransportservices.com/freight/searches/185565' \
 
       --header 'Authorization: Bearer eyJh...'
