@@ -2,11 +2,10 @@
 title: ADR Classes
 position_number: 3
 content_markdown: |-
-  List of goods type
-
   ADR Classes
 
   | **API Value** | **Class Type** | **ADR Class Name** |
+  | --- | --- | --- |
   | 1 | CLASS\_1 | Explosives |
   | 2 | CLASS\_2 | Gases |
   | 3 | CLASS\_3 | Flammable liquids |
@@ -21,12 +20,5 @@ content_markdown: |-
   | 8 | CLASS\_8 | Corrosive |
   | 9 | CLASS\_9 | Miscellaneous |
 
-  | Code | Description |
-  | --- | --- |
-  | ABNORMAL | Abnormal |
-  | CONTAINER | Container |
-  | LIQUID\_BULK | Liquid bulk cargo |
-  | GENERAL\_MERCHANDISE | General Merchandise |
-  | SOLID\_BULK | Solid bulk cargo |
 ---
 
