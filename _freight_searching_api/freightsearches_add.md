@@ -6,7 +6,20 @@ description: Create a new search for freight
 parameters:
   - name:
     content:
-content_markdown:
+content_markdown: >-
+  In order to create a new search for freight, the following information are
+  mandatory:
+
+
+  * a departure or an arrival
+
+
+  The departure an arrival information can be
+
+
+  * either an city with a search radius
+
+  * either a list of region
 left_code_blocks:
   - code_block:
     title:
