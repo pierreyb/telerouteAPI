@@ -1,8 +1,8 @@
 ---
 title: '/freight/offers/:externalId'
-position_number: 4
-type: put
-description: Update a freight offer based on an external ID
+position_number: 5
+type: delete
+description: Delete a freight offer based on an external ID
 parameters:
   - name:
     content:
