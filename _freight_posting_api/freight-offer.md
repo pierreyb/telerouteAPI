@@ -21,18 +21,6 @@ content_markdown: >-
   package and the required certificates for the transportation).
 
 
-  ##### Endpoint
-
-
-  * POST /freights/offers
-
-  * GET /freights/offers/:id
-
-  * PUT /freights/offers/:externalId&nbsp;
-
-  * DELETE /freights/offers/:externalId
-
-
   ##### The freight offer model
 
 
