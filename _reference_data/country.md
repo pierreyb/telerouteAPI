@@ -1,8 +1,7 @@
 ---
 title: Country code
 position_number: 1
----
-
+content_markdown:
 Supported countries list :
 
 * AT : Austria
@@ -51,3 +50,4 @@ Supported countries list :
 * UA : Ukraine
 * GI : Gibraltar
 * RU : Russian Federation
+---
