@@ -330,6 +330,10 @@ hr {
 	-moz-box-sizing: border-box;		/* Firefox, other Gecko */
 	box-sizing: border-box;				 /* Opera/IE 8+ */
 
+	code {
+		color: #fff;
+	}
+
 	pre {
 		 border: 0px;
 		 box-shadow: 0 0 0 1px #eee;
@@ -347,7 +351,9 @@ hr {
 	box-sizing: border-box;				 /* Opera/IE 8+ */
 
 	code {
-		color: #fff;
+		border-color: #eee;
+		border-radius: 5px;
+		background-color: #eee;
 	}
 
 	pre {
