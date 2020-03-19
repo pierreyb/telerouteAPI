@@ -13,6 +13,8 @@ content_markdown: >-
 
   * a departure or an arrival
 
+  * owner
+
 
   The departure an arrival information can be
 
