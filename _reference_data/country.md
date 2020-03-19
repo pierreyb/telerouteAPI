@@ -1,8 +1,7 @@
 ---
 title: Country code
 position_number: 1
-content_markdown: >-
-Supported countries list 
+content_markdown: 
 
  * AT : Austria
  * BE : Belgium
