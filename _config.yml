@@ -18,6 +18,9 @@ collections:
   freight_searching_api:
     title: Freight searching
     position_number: 4
+  vehicle_posting_api:
+    title: Vehicle posting
+    position_number: 5
   reference_data:
     title: Reference data
     position_number: 99
