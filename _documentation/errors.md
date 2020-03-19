@@ -34,10 +34,6 @@ content_markdown: >-
 
   | 500 | Internal Server Error | Server problem or bad request that cannot be
   parsed |
-left_code_blocks:
-  - code_block:
-    title:
-    language: json
 right_code_blocks:
   - code_block:
     title:
