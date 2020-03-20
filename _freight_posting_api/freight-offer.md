@@ -27,7 +27,7 @@ content_markdown: >-
   | freightOffer | Description | Type | Cardinality | Constraint
   / Comment | 
   
-  | --— | --— | --— | --— | --— |
+  | --- | --- | --- | --- | --- |
   
   | offerId | Unique Id of the freight | String | 1 | Readonly |
   
