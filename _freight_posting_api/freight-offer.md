@@ -21,6 +21,9 @@ content_markdown: >-
   ##### The freight offer model
 
 
+  &nbsp;
+
+
   <table><thead><tr><th><p>freightOffer</p></th><th><p>L</p></th><th><p>Description</p></th><th><p>Type</p></th><th><p>Length</p></th><th><p>Cardinality</p></th><th><p>Constraint</p></th><th><p>Comment</p></th></tr></thead><thead><tr><th><p>freightOffer</p></th><th><p>L</p></th><th><p>Description</p></th><th><p>Type</p></th><th><p>Length</p></th><th><p>Cardinality</p></th><th><p>Constraint</p></th><th><p>Comment</p></th></tr></thead><tbody><tr><td>offerId</td><td>1</td><td>Unique
   Id of the
   freight</td><td>String</td><td>&nbsp;</td><td>1</td><td>Readonly</td><td>&nbsp;</td></tr><tr><td>externalId</td><td>1</td><td>external
@@ -43,31 +46,34 @@ content_markdown: >-
   &nbsp;
 
 
-  | FreighLocation | Description | Type | Length | Cardinality | Constraint / Comment |
+  | FreighLocation | Description | Type | Length | Cardinality | Constraint /
+  Comment |
 
-  | --- | --- | --- | --- | --- | --- | 
+  | --- | --- | --- | --- | --- | --- |
 
-  | address |  | String | &nbsp; | 0\..1 | &nbsp; | 
+  | address | &nbsp; | String | &nbsp; | 0\..1 | &nbsp; |
 
-  | address.country | Country code | String | 2 | 1 | &nbsp; | 
+  | address.country | Country code | String | 2 | 1 | &nbsp; |
 
-  | address.city | City | String | &nbsp; | 1 | &nbsp; | 
+  | address.city | City | String | &nbsp; | 1 | &nbsp; |
 
-  | address.zip | &nbsp; | String | &nbsp; | 0\..1 | &nbsp; | 
+  | address.zip | &nbsp; | String | &nbsp; | 0\..1 | &nbsp; |
 
-  | address.coordinates | &nbsp; | &nbsp; | &nbsp; | 0\..1 | Read-Only | 
+  | address.coordinates | &nbsp; | &nbsp; | &nbsp; | 0\..1 | Read-Only |
 
-  | address.coordinates.latitude | &nbsp; | Float | &nbsp; | 1 | between -90 and +90 | 
+  | address.coordinates.latitude | &nbsp; | Float | &nbsp; | 1 | between -90 and
+  +90 |
 
-  | address.coordinates.longitude | &nbsp; | Float | &nbsp; | 1 | between -180 and 180 | 
+  | address.coordinates.longitude | &nbsp; | Float | &nbsp; | 1 | between -180
+  and 180 |
 
-  | interval | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | 
+  | interval | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
-  | interval.start | Earliest time at location | DateTime | &nbsp; | 0\..1 | 
+  | interval.start | Earliest time at location | DateTime | &nbsp; | 0\..1 |
   Format : 2020-04-24T11:00:00+02:00 |
 
-  | interval.end | Latest time at location | DateTime | &nbsp; | 0\..1 | 
-  Format : 2020-04-24T11:00:00+02:00 |
+  | interval.end | Latest time at location | DateTime | &nbsp; | 0\..1 | Format
+  : 2020-04-24T11:00:00+02:00 |
 
 
   &nbsp;
