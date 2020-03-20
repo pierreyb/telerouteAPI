@@ -24,27 +24,40 @@ content_markdown: >-
   &nbsp;
 
 
-  \| freightOffer \| Description \| Type \| Length \| Cardinality \| Constraint
-  / Comment \| \| — \| — \| — \| — \| — \| — \| \| offerId \| Unique Id of the
-  freight \| String \| &nbsp; \| 1 \| Readonly \| \| externalId \| external Id
-  of the freight provided by the provider \| String \| &nbsp; \| 0..1 \| &nbsp;
-  \| \| paymentDue \| Due date for the payment of the transport \| Integer \|
-  &nbsp; \| 0..1 \| &gt;0 \| \| pickUp \| Pickup information \| FreightLocation
-  \| &nbsp; \| 1 \| &nbsp; \| \| delivery \| Delivery information \|
-  FreightLocation \| &nbsp; \| 1 \| &nbsp; \| \| freightDescritpion \| &nbsp; \|
-  &nbsp; \| &nbsp; \| &nbsp; \| &nbsp; \| \| freightDescritpion.type \| Goods
-  type \| Enum \| &nbsp; \| 0..1 \| Possible values \| \|
-  freightDescritpion.netWeight \| Weight \| Number \| &nbsp; \| 0..1 \| 0-999 \|
-  \| freightDescritpion.length \| Length \| Number \| &nbsp; \| 0..1 \| 0-25
-  \|<br>\| freightDescritpion.volume \| Volume \| Number \| &nbsp; \| 0..1 \|
-  0-999 \| \| freightDescritpion.temperatureControlled \| Temperature controlled
-  \| Boolean \| &nbsp; \| 0..1 \| &nbsp; \| \|
-  freightDescritpion.hazardousness.hazardous \| Hazardous indicator \| Boolean
-  \| &nbsp; \| 0..1 \| &nbsp; \| \| freightDescritpion.requiredVehicles \|
-  Required vehicles type \| Array \| &nbsp; \| 0..\* \| Possible values \| \|
-  owner.login \| Username of the owner of the offer \| String \| &nbsp; \| 1 \|
-  &nbsp; \|<br>\| addInfo.comment \| Comment \| String \| &nbsp; \| 0..1 \|
-  &nbsp; \|
+  | freightOffer | Description | Type | Cardinality | Constraint
+  / Comment | 
+  
+  | — | — | — | — | — |
+  
+  | offerId | Unique Id of the freight | String | 1 | Readonly |
+  
+  | externalId | external Id of the freight provided by the provider | String | 0\..1 | &nbsp; |
+  
+  | paymentDue | Due date for the payment of the transport | Integer | 0\..1 | &gt;0 |
+  
+  | pickUp | Pickup information | FreightLocation | 1 | &nbsp; |
+  
+  | delivery | Delivery information | FreightLocation | 1 | &nbsp; |
+  
+  | freightDescritpion | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  
+  | freightDescritpion.type | Goods type | Enum | 0\..1 | Possible values |
+  
+  | freightDescritpion.netWeight | Weight | Number | 0\..1 | 0-999 |
+  
+  | freightDescritpion.length | Length | Number | 0\..1 | 0-25 |
+  
+  | freightDescritpion.volume | Volume | Number | 0\..1 | 0-999 |
+  
+  | freightDescritpion.temperatureControlled | Temperature controlled | Boolean | 0\..1 | &nbsp; |
+  
+  | freightDescritpion.hazardousness.hazardous | Hazardous indicator | Boolean | 0\..1 | &nbsp; |
+  
+  | freightDescritpion.requiredVehicles | Required vehicles type | Array | 0\..\* | Possible values |
+  
+  | owner.login | Username of the owner of the offer | String | 1 | &nbsp; |
+  
+  | addInfo.comment | Comment | String | 0\..1 | &nbsp; |
 
 
   &nbsp;
