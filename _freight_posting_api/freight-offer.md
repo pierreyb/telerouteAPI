@@ -38,12 +38,7 @@ content_markdown: >-
   | freightDescritpion | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | 
   
   | freightDescritpion.type | Goods type | Enum | &nbsp; | 0..1 | 
-  Possible values: 
-    * GENERAL_MERCHANDISE
-    * SOLID_BULK
-    * LIQUID_BULK
-    * ABNORMAL
-    * CONTAINER |
+  Possible values:  |
   
   | freightDescritpion.netWeight | Weight | Number | &nbsp; | 0..1 | 0-999 |
   
