@@ -21,24 +21,43 @@ content_markdown: >-
   ##### The freight offer model
 
 
-  <table><tbody><tr><td>freightOffer</td><td>Description</td><td>Type</td><td>Cardinality</td><td>Constraint
-  /
-  Comment</td></tr><tr><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr><tr><td>offerId</td><td>Unique
-  Id of the
-  freight</td><td>String</td><td>1</td><td>Readonly</td></tr><tr><td>externalId</td><td>external
-  Id of the freight provided by the
-  provider</td><td>String</td><td>0..1</td><td>&nbsp;</td></tr><tr><td>paymentDue</td><td>Due
-  date for the payment of the
-  transport</td><td>Integer</td><td>0..1</td><td>&gt;0</td></tr><tr><td>pickUp</td><td>Pickup
-  information</td><td>FreightLocation</td><td>1</td><td>&nbsp;</td></tr><tr><td>delivery</td><td>Delivery
-  information</td><td>FreightLocation</td><td>1</td><td>&nbsp;</td></tr><tr><td>freightDescritpion</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>freightDescritpion.type</td><td>Goods
-  type</td><td>Enum</td><td>0..1</td><td><p>Possible values
-  :</p><ul><li>A</li><li>B</li></ul></td></tr><tr><td>freightDescritpion.netWeight</td><td>Weight</td><td>Number</td><td>0..1</td><td>0-999</td></tr><tr><td>freightDescritpion.length</td><td>Length</td><td>Number</td><td>0..1</td><td>0-25</td></tr><tr><td>freightDescritpion.volume</td><td>Volume</td><td>Number</td><td>0..1</td><td>0-999</td></tr><tr><td>freightDescritpion.temperatureControlled</td><td>Temperature
-  controlled</td><td>Boolean</td><td>0..1</td><td>&nbsp;</td></tr><tr><td>freightDescritpion.hazardousness.hazardous</td><td>Hazardous
-  indicator</td><td>Boolean</td><td>0..1</td><td>&nbsp;</td></tr><tr><td>freightDescritpion.requiredVehicles</td><td>Required
-  vehicles type</td><td>Array</td><td>0..*</td><td>Possible
-  values</td></tr><tr><td>owner.login</td><td>Username of the owner of the
-  offer</td><td>String</td><td>1</td><td>&nbsp;</td></tr><tr><td>addInfo.comment</td><td>Comment</td><td>String</td><td>0..1</td><td>&nbsp;</td></tr></tbody></table>
+  &nbsp;
+
+
+  | freightOffer | Description | Type | Cardinality | Constraint
+  / Comment | 
+  
+  | --— | --— | --— | --— | --— |
+  
+  | offerId | Unique Id of the freight | String | 1 | Readonly |
+  
+  | externalId | external Id of the freight provided by the provider | String | 0\..1 | &nbsp; |
+  
+  | paymentDue | Due date for the payment of the transport | Integer | 0\..1 | &gt;0 |
+  
+  | pickUp | Pickup information | FreightLocation | 1 | &nbsp; |
+  
+  | delivery | Delivery information | FreightLocation | 1 | &nbsp; |
+  
+  | freightDescritpion | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  
+  | freightDescritpion.type | Goods type | Enum | 0\..1 | Possible values |
+  
+  | freightDescritpion.netWeight | Weight | Number | 0\..1 | 0-999 |
+  
+  | freightDescritpion.length | Length | Number | 0\..1 | 0-25 |
+  
+  | freightDescritpion.volume | Volume | Number | 0\..1 | 0-999 |
+  
+  | freightDescritpion.temperatureControlled | Temperature controlled | Boolean | 0\..1 | &nbsp; |
+  
+  | freightDescritpion.hazardousness.hazardous | Hazardous indicator | Boolean | 0\..1 | &nbsp; |
+  
+  | freightDescritpion.requiredVehicles | Required vehicles type | Array | 0\..\* | Possible values |
+  
+  | owner.login | Username of the owner of the offer | String | 1 | &nbsp; |
+  
+  | addInfo.comment | Comment | String | 0\..1 | &nbsp; |
 
 
   &nbsp;
