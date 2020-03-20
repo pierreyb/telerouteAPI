@@ -29,7 +29,7 @@ content_markdown: >-
   
   | externalId | external Id of the freight provided by the provider | String | &nbsp; | 0..1 | &nbsp; | 
   
-  | paymentDue | Due date for the payment of the transport | Number | &nbsp; | 0..1 | &gt;0 | 
+  | paymentDue | Due date for the payment of the transport | Integer | &nbsp; | 0..1 | &gt;0 | 
   
   | pickUp | Pickup information | FreightLocation | &nbsp; | 1 | &nbsp; |
   
@@ -37,15 +37,57 @@ content_markdown: >-
   
   | freightDescritpion | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | 
   
-  | type | 2 | Goods
-  type | Enum | &nbsp; | 0..1 | <p>Possible
-  values:</p><ul><li>GENERAL_MERCHANDISE</li><li>SOLID_BULK</li><li>LIQUID_BULK</li><li>ABNORMAL</li><li>CONTAINER</li></ul> | &nbsp; |  | netWeight | 2 | Weight | Number | &nbsp; | 0..1 | 0-999 | &nbsp; |  | length | 2 | Length | Number | &nbsp; | 0..1 | 0-25 | &nbsp; |  | volume | 2 | Volume | Number | &nbsp; | 0..1 | 0-999 | &nbsp; |  | <p>temperatureControlled</p> | 2 | Temperature
-  controlled | Boolean | &nbsp; | 0..1 | &nbsp; | <p>&nbsp;</p> |  | hazardousness.hazardous | 2 | Hazardous
-  indicator | Boolean | &nbsp; | 0..1 | &nbsp; | &nbsp; |  | requiredVehicles | 2 | Required
-  vehicles type | Array | &nbsp; | 0..* | <p>Possible
-  values:</p><ul><li>VAN</li><li>TAUTLINER</li><li>BOX</li><li>OPEN</li><li>TRAX_WALKING_FLOOR</li><li>COIL</li><li>JUMBO</li><li>MEGATRAILER</li><li>ISOTHERMIC</li><li>REFRIGERATED</li><li>FREEZER</li><li>MULTI_TEMPERATURE</li><li>PUBLIC_WORKS_TIPPER</li><li>CEREAL_TIPPER</li><li>STEEL_TROUGH</li><li>ARMOURED_TROUGH</li><li>PALLETABLE_BULK</li><li>WALKING_FLOOR</li><li>LIQUID_TANK</li><li>PULVERULENT_TANK</li><li>FLAT</li><li>LOWLOADER</li><li>CONTAINER_20</li><li>CONTAINER_40</li><li>CONTAINER_45</li></ul> | &nbsp; |  | owner.login | 1 | Username
-  of the owner of the
-  offer | String | &nbsp; | 1 | &nbsp; | &nbsp; |  | addInfo.comment | 1 | Comment | String | &nbsp; | 0..1 | &nbsp; | &nbsp; | </tbody></table>
+  | freightDescritpion.type | Goods type | Enum | &nbsp; | 0..1 | 
+  Possible values: 
+    * GENERAL_MERCHANDISE
+    * SOLID_BULK
+    * LIQUID_BULK
+    * ABNORMAL
+    * CONTAINER 
+  |
+  
+  | freightDescritpion.netWeight | Weight | Number | &nbsp; | 0..1 | 0-999 |
+  
+  | freightDescritpion.length | Length | Number | &nbsp; | 0..1 | 0-25 |  
+  
+  | freightDescritpion.volume | Volume | Number | &nbsp; | 0..1 | 0-999 | 
+  
+  | freightDescritpion.temperatureControlled | Temperature controlled | Boolean | &nbsp; | 0..1 | &nbsp; | 
+  
+  | freightDescritpion.hazardousness.hazardous | Hazardous indicator | Boolean | &nbsp; | 0..1 | &nbsp; | 
+  
+  | freightDescritpion.requiredVehicles | Required vehicles type | Array | &nbsp; | 0..* | 
+  Possible values:
+    * VAN
+    * TAUTLINER
+    * BOX
+    * OPEN
+    * TRAX_WALKING_FLOOR
+    * COIL
+    * JUMBO
+    * MEGATRAILER
+    * ISOTHERMIC
+    * REFRIGERATED
+    * FREEZER
+    * MULTI_TEMPERATURE
+    * PUBLIC_WORKS_TIPPER
+    * CEREAL_TIPPER
+    * STEEL_TROUGH
+    * ARMOURED_TROUGH
+    * PALLETABLE_BULK
+    * WALKING_FLOOR
+    * LIQUID_TANK
+    * PULVERULENT_TANK
+    * FLAT
+    * LOWLOADER
+    * CONTAINER_20
+    * CONTAINER_40
+    * CONTAINER_45
+  | 
+  
+  | owner.login | Username of the owner of the offer | String | &nbsp; | 1 | &nbsp; |  
+  
+  | addInfo.comment | Comment | String | &nbsp; | 0..1 | &nbsp; | 
 
 
   &nbsp;
