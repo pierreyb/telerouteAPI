@@ -20,53 +20,44 @@ content_markdown: >-
 
   ##### The freight offer model
 
-  | freightOffer | Description | Type | Length | Cardinality | Constraint /
-  Comment |
 
-  | --- | --- | --- | --- | --- | --- |
-  
-  | offerId | Unique Id of the freight | String | &nbsp; | 1 | Readonly | 
-  
-  | externalId | external Id of the freight provided by the provider | String | &nbsp; | 0\..1 | &nbsp; | 
-  
-  | paymentDue | Due date for the payment of the transport | Integer | &nbsp; | 0\..1 | &gt;0 | 
-  
-  | pickUp | Pickup information | FreightLocation | &nbsp; | 1 | &nbsp; |
-  
-  | delivery | Delivery information | FreightLocation | &nbsp; | 1 | &nbsp; |
-  
-  | freightDescritpion | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | 
-  
-  | freightDescritpion.type | Goods type | Enum | &nbsp; | 0\..1 | Possible values  |
-  
-  | freightDescritpion.netWeight | Weight | Number | &nbsp; | 0\..1 | 0-999 |
-  
-  | freightDescritpion.length | Length | Number | &nbsp; | 0\..1 | 0-25 |  
-  
-  | freightDescritpion.volume | Volume | Number | &nbsp; | 0\..1 | 0-999 | 
-  
-  | freightDescritpion.temperatureControlled | Temperature controlled | Boolean | &nbsp; | 0\..1 | &nbsp; | 
-  
-  | freightDescritpion.hazardousness.hazardous | Hazardous indicator | Boolean | &nbsp; | 0\..1 | &nbsp; | 
-  
-  | freightDescritpion.requiredVehicles | Required vehicles type | Array | &nbsp; | 0\..* | Possible values | 
-  
-  | owner.login | Username of the owner of the offer | String | &nbsp; | 1 | &nbsp; |  
-  
-  | addInfo.comment | Comment | String | &nbsp; | 0\..1 | &nbsp; | 
+  &nbsp;
+
+
+  \| freightOffer \| Description \| Type \| Length \| Cardinality \| Constraint
+  / Comment \| \| — \| — \| — \| — \| — \| — \| \| offerId \| Unique Id of the
+  freight \| String \| &nbsp; \| 1 \| Readonly \| \| externalId \| external Id
+  of the freight provided by the provider \| String \| &nbsp; \| 0..1 \| &nbsp;
+  \| \| paymentDue \| Due date for the payment of the transport \| Integer \|
+  &nbsp; \| 0..1 \| &gt;0 \| \| pickUp \| Pickup information \| FreightLocation
+  \| &nbsp; \| 1 \| &nbsp; \| \| delivery \| Delivery information \|
+  FreightLocation \| &nbsp; \| 1 \| &nbsp; \| \| freightDescritpion \| &nbsp; \|
+  &nbsp; \| &nbsp; \| &nbsp; \| &nbsp; \| \| freightDescritpion.type \| Goods
+  type \| Enum \| &nbsp; \| 0..1 \| Possible values \| \|
+  freightDescritpion.netWeight \| Weight \| Number \| &nbsp; \| 0..1 \| 0-999 \|
+  \| freightDescritpion.length \| Length \| Number \| &nbsp; \| 0..1 \| 0-25
+  \|<br>\| freightDescritpion.volume \| Volume \| Number \| &nbsp; \| 0..1 \|
+  0-999 \| \| freightDescritpion.temperatureControlled \| Temperature controlled
+  \| Boolean \| &nbsp; \| 0..1 \| &nbsp; \| \|
+  freightDescritpion.hazardousness.hazardous \| Hazardous indicator \| Boolean
+  \| &nbsp; \| 0..1 \| &nbsp; \| \| freightDescritpion.requiredVehicles \|
+  Required vehicles type \| Array \| &nbsp; \| 0..\* \| Possible values \| \|
+  owner.login \| Username of the owner of the offer \| String \| &nbsp; \| 1 \|
+  &nbsp; \|<br>\| addInfo.comment \| Comment \| String \| &nbsp; \| 0..1 \|
+  &nbsp; \|
 
 
   &nbsp;
 
 
-  | FreighLocation | Description | Type | Cardinality | Constraint /
-  Comment |
+  | FreighLocation | Description | Type | Cardinality | Constraint / Comment |
 
-  | --- | --- | --- | --- | --- | 
+  | --- | --- | --- | --- | --- |
 
   | address | &nbsp; | String | 0\..1 | &nbsp; |
 
-  | address.country | Country code | String | 1 | supported list in reference data |
+  | address.country | Country code | String | 1 | supported list in reference
+  data |
 
   | address.city | City | String | 1 | &nbsp; |
 
@@ -74,19 +65,17 @@ content_markdown: >-
 
   | address.coordinates | &nbsp; | &nbsp; | 0\..1 | Read-Only |
 
-  | address.coordinates.latitude | &nbsp; | Float | 1 | between -90 and
-  +90 |
+  | address.coordinates.latitude | &nbsp; | Float | 1 | between -90 and +90 |
 
-  | address.coordinates.longitude | &nbsp; | Float | 1 | between -180
-  and 180 |
+  | address.coordinates.longitude | &nbsp; | Float | 1 | between -180 and 180 |
 
   | interval | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
-  | interval.start | Earliest time at location | DateTime | 0\..1 |
-  Format : 2020-04-24T11:00:00+02:00 |
+  | interval.start | Earliest time at location | DateTime | 0\..1 | Format :
+  2020-04-24T11:00:00+02:00 |
 
-  | interval.end | Latest time at location | DateTime | 0\..1 | Format
-  : 2020-04-24T11:00:00+02:00 |
+  | interval.end | Latest time at location | DateTime | 0\..1 | Format :
+  2020-04-24T11:00:00+02:00 |
 
 
   &nbsp;
