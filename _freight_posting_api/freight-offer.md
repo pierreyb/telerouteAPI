@@ -43,8 +43,7 @@ content_markdown: >-
     * SOLID_BULK
     * LIQUID_BULK
     * ABNORMAL
-    * CONTAINER 
-  |
+    * CONTAINER |
   
   | freightDescritpion.netWeight | Weight | Number | &nbsp; | 0..1 | 0-999 |
   
@@ -82,8 +81,7 @@ content_markdown: >-
     * LOWLOADER
     * CONTAINER_20
     * CONTAINER_40
-    * CONTAINER_45
-  | 
+    * CONTAINER_45 | 
   
   | owner.login | Username of the owner of the offer | String | &nbsp; | 1 | &nbsp; |  
   
