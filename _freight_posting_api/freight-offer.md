@@ -41,7 +41,7 @@ content_markdown: >-
   
   | freightDescritpion | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
   
-  | freightDescritpion.type | Goods type | Enum | 0\..1 | Possible values |
+  | freightDescritpion.type | Goods type | Enum | 0\..1 | reference data goods type |
   
   | freightDescritpion.netWeight | Weight | Number | 0\..1 | 0-999 |
   
@@ -53,7 +53,7 @@ content_markdown: >-
   
   | freightDescritpion.hazardousness.hazardous | Hazardous indicator | Boolean | 0\..1 | &nbsp; |
   
-  | freightDescritpion.requiredVehicles | Required vehicles type | Array | 0\..\* | Possible values |
+  | freightDescritpion.requiredVehicles | Required vehicles type | Array | 0\..\* | see reference data vehicle |
   
   | owner.login | Username of the owner of the offer | String | 1 | &nbsp; |
   
