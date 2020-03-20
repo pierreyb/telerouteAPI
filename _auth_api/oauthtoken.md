@@ -31,8 +31,7 @@ content_markdown: >-
 
   | refresh\_token | &nbsp; | JSON Web Token |
 
-  | expires\_in | 3599 | Expiration time, expressed in seconds (Unix time stamp)
-  |
+  | expires\_in | 3599 | Expiration time, expressed in seconds |
 
   | scope | any | &nbsp; |
 
