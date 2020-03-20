@@ -51,32 +51,7 @@ content_markdown: >-
   | freightDescritpion.hazardousness.hazardous | Hazardous indicator | Boolean | &nbsp; | 0..1 | &nbsp; | 
   
   | freightDescritpion.requiredVehicles | Required vehicles type | Array | &nbsp; | 0..* | 
-  Possible values:
-    * VAN
-    * TAUTLINER
-    * BOX
-    * OPEN
-    * TRAX_WALKING_FLOOR
-    * COIL
-    * JUMBO
-    * MEGATRAILER
-    * ISOTHERMIC
-    * REFRIGERATED
-    * FREEZER
-    * MULTI_TEMPERATURE
-    * PUBLIC_WORKS_TIPPER
-    * CEREAL_TIPPER
-    * STEEL_TROUGH
-    * ARMOURED_TROUGH
-    * PALLETABLE_BULK
-    * WALKING_FLOOR
-    * LIQUID_TANK
-    * PULVERULENT_TANK
-    * FLAT
-    * LOWLOADER
-    * CONTAINER_20
-    * CONTAINER_40
-    * CONTAINER_45 | 
+  Possible values: | 
   
   | owner.login | Username of the owner of the offer | String | &nbsp; | 1 | &nbsp; |  
   
