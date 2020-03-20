@@ -1,9 +1,6 @@
 ---
 title: Freight offer
 position_number: 1
-parameters:
-  - name:
-    content:
 content_markdown: >-
   Freight offer contain the information related to the goods to be transported.
   In the context of the freight exchange application, the freight are goods
@@ -46,32 +43,30 @@ content_markdown: >-
   &nbsp;
 
 
-  | FreighLocation | L | Description | Type | Length | Cardinality | Constraint
-  | Comment |
+  | FreighLocation | Description | Type | Length | Cardinality | Constraint / Comment |
 
-  | --- | --- | --- | --- | --- | --- | --- | --- |
+  | --- | --- | --- | --- | --- | --- | 
 
-  | address | 1 | City | String | &nbsp; | 0\..1 | &nbsp; | &nbsp; |
+  | address |  | String | &nbsp; | 0\..1 | &nbsp; | 
 
-  | country | 2 | Country code | String | 2 | 1 | &nbsp; | &nbsp; |
+  | address.country | Country code | String | 2 | 1 | &nbsp; | 
 
-  | city | 2 | City | String | &nbsp; | 1 | &nbsp; | &nbsp; |
+  | address.city | City | String | &nbsp; | 1 | &nbsp; | 
 
-  | zip | 2 | &nbsp; | String | &nbsp; | 0\..1 | &nbsp; | &nbsp; |
+  | address.zip | &nbsp; | String | &nbsp; | 0\..1 | &nbsp; | 
 
-  | coordinates | 2 | &nbsp; | &nbsp; | &nbsp; | 0\..1 | Read-Only | &nbsp; |
+  | address.coordinates | &nbsp; | &nbsp; | &nbsp; | 0\..1 | Read-Only | 
 
-  | latitude | 3 | &nbsp; | Float | &nbsp; | 1 | between -90 and +90 | &nbsp; |
+  | address.coordinates.latitude | &nbsp; | Float | &nbsp; | 1 | between -90 and +90 | 
 
-  | longitude | 3 | &nbsp; | Float | &nbsp; | 1 | between -180 and 180 | &nbsp;
-  |
+  | address.coordinates.longitude | &nbsp; | Float | &nbsp; | 1 | between -180 and 180 | 
 
-  | interval | 1 | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  | interval | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | 
 
-  | start | 2 | Earliest time at location | DateTime | &nbsp; | 0\..1 | &nbsp; |
+  | interval.start | Earliest time at location | DateTime | &nbsp; | 0\..1 | 
   Format : 2020-04-24T11:00:00+02:00 |
 
-  | end | 2 | Latest time at location | DateTime | &nbsp; | 0\..1 | &nbsp; |
+  | interval.end | Latest time at location | DateTime | &nbsp; | 0\..1 | 
   Format : 2020-04-24T11:00:00+02:00 |
 
 
