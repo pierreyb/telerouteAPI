@@ -79,6 +79,7 @@ _options:
     link: true
     bulletedlist: true
     numberedlist: true
+    code: true
     image: true
     table: true
     styles: /css/editor.css
