@@ -1,6 +1,6 @@
 ---
 title: Goods type
-position_number: 2
+position_number: 1
 content_markdown: |-
   List of goods type
 
