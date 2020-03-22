@@ -62,10 +62,7 @@ right_code_blocks:
             "hazardous": false
           },
           "temperatureControlled": false,
-          "requiredVehicles": ["TAUTLINER"],
-          "transportPackage": {
-            "exchangeable": false
-          }
+          "requiredVehicles": ["TAUTLINER"]
         },
         "owner": {
           "login": "userlogin"
