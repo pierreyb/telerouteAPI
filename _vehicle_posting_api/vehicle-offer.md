@@ -31,7 +31,7 @@ content_markdown: >-
   | VehicleDescritpion.length | Available length | Number | 0\..1 | 0-25 |
   
   | VehicleDescritpion.volume | Available volume | Number | 0\..1 | 0-999 |
-   
+  
   | owner.login | Username of the owner of the offer | String | 1 | &nbsp; |
   
   | addInfo.comment | Comment | String | 0\..1 | &nbsp; |
