@@ -1,6 +1,6 @@
 ---
 title: Vehicles type
-position_number: 4
+position_number: 2
 content_markdown: |-
   List of vehicle type and link with the type of goods 
 
