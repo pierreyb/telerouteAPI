@@ -18,8 +18,7 @@ content_markdown: >-
   package and the required certificates for the transportation).
 
 
-  ##### The freight offer model
-
+  *The freight offer model*
 
   &nbsp;
 
