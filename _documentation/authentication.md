@@ -14,7 +14,7 @@ content_markdown: >-
   In order to use the Freight Exchange API’s you need a business account with
   proper access. If you do not have your credentials, please address to
   Teleroute Integration team. The contact information can be found on
-  the&nbsp;[...](https://teleroute.com/en-en/contact/support/){:
+  the following page : [https://teleroute.com/en-en/contact/support/](https://teleroute.com/en-en/contact/support/){:
   target="_blank"}
 
   {: .info}
