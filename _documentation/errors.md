@@ -17,8 +17,10 @@ content_markdown: >-
   * Codes in the `4xx` range indicate an error with the error 
   information provided (e.g., a required parameter was omitted.).
 
-  * Codes in the `5xx` range indicate an error with Teleroute's servers
-  (these are rare).&nbsp;
+  * Codes in the `5xx` range indicate an error with Teleroute's servers.
+  
+
+  &nbsp;
 
 
   | Code | Name | Description |
