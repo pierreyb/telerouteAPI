@@ -19,7 +19,7 @@ content_markdown: >-
   The departure and arrival information can be
 
 
-  * either an city with a search radius
+  * either a city with a search radius
 
   * either a list of region
 left_code_blocks:
