@@ -7,7 +7,7 @@ parameters:
   - name:
     content:
 content_markdown: >-
-  In order to create a new search for freight, the following information are
+  In order to create a new search for freight, the following information is
   mandatory:
 
 
