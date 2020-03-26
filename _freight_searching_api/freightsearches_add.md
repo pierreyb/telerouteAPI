@@ -16,7 +16,7 @@ content_markdown: >-
   * owner
 
 
-  The departure an arrival information can be
+  The departure and arrival information can be
 
 
   * either an city with a search radius
