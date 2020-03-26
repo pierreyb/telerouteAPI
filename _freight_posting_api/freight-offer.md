@@ -4,18 +4,18 @@ position_number: 1
 content_markdown: >-
   Freight offer contain the information related to the goods to be transported.
   In the context of the freight exchange application, the freight are goods
-  packaged in a indivisible batch and which needs to be moved in from a loading
+  packaged in an indivisible batch and which needs to be moved from a loading
   place to a delivery place.
 
 
-  * The route provides the information about the city where the goods needs to
-  be picked up, the city where the goods needs to be delivered and the loading
-  date. The delivery date can also be indicates.
+  * The route provides the information about the city where the goods need to
+  be picked up, the city where the goods need to be delivered and the loading
+  date. The delivery date can also be indicated.
 
   * The freight description provides the information about the goods and
-  eventually specification regarding the truck. Goods type will have an impact
+  eventually specifications regarding the truck. Goods type will have an impact
   on the type of truck required for the transport, the dimension, the transport
-  package and the required certificates for the transportation).
+  package and the required certificates for the transportation.
 
 
   *The freight offer model*
