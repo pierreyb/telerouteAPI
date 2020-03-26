@@ -33,34 +33,34 @@ right_code_blocks:
                     "start": "2020-04-24T10:00:00+01:00",
                     "end": "2020-04-24T18:00:00+01:00"
                  }
+              },
+              "delivery": {
+                 "location": {
+                    "address": {
+                       "country": "ES",
+                       "zip": "08",
+                       "city": "Barcelona"
+                    }
+                  }
                },
-            "delivery": {
-              "location": {
-                "address": {
-                  "country": "ES",
-                  "zip": "08",
-                  "city": "Barcelona"
-                 }
-               }
-             },
-        "freightDescription": {
-          "type": "GENERAL_MERCHANDISE",
-          "netWeight": 24.0,
-          "length": 13.0,
-          "volume": null,
-          "hazardousness": {
-            "hazardous": false
-          },
-          "temperatureControlled": false,
-          "requiredVehicles": ["TAUTLINER"]
-        },
-        "owner": {
-          "login": "userlogin"
-        },
-        "addInfo": {
-          "comment": "Comment"
-        }
-      }'
+              "freightDescription": {
+                 "type": "GENERAL_MERCHANDISE",
+                 "netWeight": 24.0,
+                 "length": 13.0,
+                 "volume": null,
+                 "hazardousness": {
+                    "hazardous": false
+                 },
+                 "temperatureControlled": false,
+                 "requiredVehicles": ["TAUTLINER"]
+              },
+              "owner": {
+                 "login": "userlogin"
+              },
+              "addInfo": {
+                 "comment": "Comment"
+              }
+             }'
     title: Request example
     language: bash
----
+--- 
