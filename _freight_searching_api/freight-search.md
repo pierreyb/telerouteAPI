@@ -8,7 +8,7 @@ content_markdown: >-
 
   * An origin and a destination (both are optional but not mutually optional –
   ie at least one of origin or destination is mandatory). The possible choice
-  for theses value are either&nbsp;
+  for these value are either&nbsp;
     * A city (search is then performed based on a circle around this city)
     * A list of countries, regions or sub-region
   * A search period. ie a date range (example : Today, Today until Tomorrow,
