@@ -14,10 +14,10 @@ content_markdown: >-
 
   * Codes in the `2xx` range indicate success.
 
-  * Codes in the `4xx` range indicate an error that failed given the
+  * Codes in the `4xx` range indicate an error with the error 
   information provided (e.g., a required parameter was omitted.).
 
-  * Codes in the `5xx` range indicate an error with Telertoue's servers
+  * Codes in the `5xx` range indicate an error with Teleroute's servers
   (these are rare).&nbsp;
 
 
