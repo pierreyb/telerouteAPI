@@ -62,15 +62,8 @@ types:
   - post
 languages:
   bash: Bash
-  c: C
-  css: CSS
-  html: HTML
-  java: Java
   javascript: JavaScript
   json: JSON
-  php: PHP
-  python: Python
-  ruby: Ruby
 _options:
   content_markdown:
     format: p h2 h3 h4
