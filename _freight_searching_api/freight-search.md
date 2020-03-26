@@ -14,7 +14,7 @@ content_markdown: >-
   * A search period. ie a date range (example : Today, Today until Tomorrow,
   until a date, starting from a date, … )
 
-  * Freight characteristics provides the type of goods to be searched.
+  * Freight characteristics provide the type of goods to be searched.
 
   * Truck characteristics allow a restriction on the type of trucks to be used
   for the transportation.
