@@ -12,10 +12,11 @@ left_code_blocks:
     title:
     language:
 right_code_blocks:
-  - code_block: |-
+  - code_block: |
       curl --location --request DELETE
             'https://api.fx.wktransportservices.com/freight/offers/aaaasfbf4mgaf' \
-            --header 'Authorization: Bearer eyJh...' 
+            --header 'Authorization: Bearer eyJh...' \
+            --header 'Accept-Version: “v1”' 
     title: Request example
     language: bash
 ---
