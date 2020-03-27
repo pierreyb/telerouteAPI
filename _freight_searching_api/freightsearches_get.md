@@ -12,7 +12,13 @@ left_code_blocks:
     title:
     language:
 right_code_blocks:
-  - code_block: "curl --location --request GET 'https://api.fx.wktransportservices.com/freight/searches' \\\r\n--header 'Authorization: Bearer eyJh...' \\"
+  - code_block: >-
+      curl --location --request GET
+      'https://api.fx.wktransportservices.com/freight/searches' \
+
+      --header 'Authorization: Bearer eyJh...' \
+
+      --header 'Accept-Version: “v1”' 
     title: Request example
     language: bash
 ---
