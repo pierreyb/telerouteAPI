@@ -75,6 +75,7 @@ right_code_blocks:
       'https://api.fx.wktransportservices.com/user/token?client_id=freightexchange&client_secret=secret&scope=any&grant_type=password&username={username}&password={password}'
       \
         -H 'Accept: application/json' \
+        -H 'Accept-Version: “v1”'
         -H 'Cache-Control: no-cache' \
     title: Request example
     language: bash
