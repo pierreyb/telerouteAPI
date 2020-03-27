@@ -1,7 +1,7 @@
 ---
 title: /user/token
 position_number: 2
-type: put
+type: post
 description: Generate a bearer token
 parameters:
   - name: client_id
