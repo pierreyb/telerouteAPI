@@ -12,7 +12,13 @@ left_code_blocks:
     title:
     language:
 right_code_blocks:
-  - code_block: "curl --location --request POST 'https://api.mkt.sprint.alpega.info/freight/searches/123456/results' \\\r\n--header 'Authorization: Bearer eyJh...' \\"
+  - code_block: >-
+      curl --location --request POST
+      'https://api.mkt.sprint.alpega.info/freight/searches/123456/results' \
+
+      --header 'Authorization: Bearer eyJh...' 
+
+      --header 'Accept-Version: “v1”' 
     title: Request example
     language: bash
 ---
