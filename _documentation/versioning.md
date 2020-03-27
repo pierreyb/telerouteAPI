@@ -8,5 +8,5 @@ content_markdown: >-
 
 
   To ensure your request will be processed with the correct version, the header
-  of the request should content the \`Accept-Version\` parameter.
+  of the request should content the `Accept-Version`&nbsp;parameter.
 ---
