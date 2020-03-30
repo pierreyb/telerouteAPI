@@ -2,7 +2,7 @@
 title: Vehicle offer
 position_number: 1
 content_markdown: >-
-  Vehicle offer contain the information related to available vehicle.
+  Vehicle offers contain the information related to available vehicle.
 
   ##### The Vehicle offer model
 
