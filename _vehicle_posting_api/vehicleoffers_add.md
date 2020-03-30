@@ -7,7 +7,7 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  In order to create a new vehicle, the following information are mandatory:
+  In order to create a new vehicle, the following information is mandatory:
 
   * departure address
   * departure interval start date (time is optional)
