@@ -31,9 +31,9 @@ content_markdown: >-
   
   | state | Status of the search | Enum | 1 | Possible values: ACTIVE or UNACTIVE |
   
-  | departure | Departure criteria of the search | FreightSearchLocation | 0\..1 | if not present arrival is mandatory |
+  | departure | Departure criteria of the search | FreightSearchLocation | 1 | &nbsp; |
   
-  | arrival | Arrival criteria of the search | FreightSearchLocation | 0\..1 | if not present departure is mandatory |
+  | arrival | Arrival criteria of the search | FreightSearchLocation | 1 | &nbsp; |
   
   | loadingInterval | Loading criteria of the search | &nbsp; | &nbsp; | 1 | &nbsp; |
   
