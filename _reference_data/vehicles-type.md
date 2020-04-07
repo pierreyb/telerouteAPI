@@ -12,6 +12,8 @@ content_markdown: |-
   | OPEN | General merchandise |
   | TRAX\_WALKING\_FLOOR | General merchandise |
   | COIL | General merchandise |
+  | JUMBO | General merchandise |
+  | MEGATRAILER | General merchandise |
   | PUBLIC\_WORKS\_TIPPERS | Solid Bulk |
   | CEREAL\_TIPPER | Solid Bulk |
   | STEEL\_TROUGH | Solid Bulk |
