@@ -25,6 +25,9 @@ content_markdown: |-
   | MEGATRAILER | Abnormal |
   | FLAT | Abnormal |
   | LOWLOADER | Abnormal |
+  | CONTAINER_20 | Container |
+  | CONTAINER_40 | Container |
+  | CONTAINER_45 | Container |
   | ISOTHERMIC | Temperature Controlled |
   | REFRIGERATED | Temperature Controlled |
   | FREEZER | Temperature Controlled |
