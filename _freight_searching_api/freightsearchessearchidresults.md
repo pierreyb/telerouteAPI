@@ -14,7 +14,7 @@ left_code_blocks:
 right_code_blocks:
   - code_block: >-
       curl --location --request POST
-      'https://api.mkt.sprint.alpega.info/freight/searches/123456/results' \
+      'https://api.fx.wktransportservices.com/freight/searches/123456/results' \
 
       --header 'Authorization: Bearer eyJh...' 
 
