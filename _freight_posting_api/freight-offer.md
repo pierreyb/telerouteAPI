@@ -8,9 +8,9 @@ content_markdown: >-
   place to a delivery place.
 
 
-  * The route provides the information about the city where the goods need to
-  be picked up, the city where the goods need to be delivered and the loading
-  date. The delivery date can also be indicated.
+  * The route provides the information about the city where the goods need to be
+  picked up, the city where the goods need to be delivered and the loading date.
+  The delivery date can also be indicated.
 
   * The freight description provides the information about the goods and
   eventually specifications regarding the truck. Goods type will have an impact
@@ -18,44 +18,47 @@ content_markdown: >-
   package and the required certificates for the transportation.
 
 
-  *The freight offer model*
-
-  &nbsp;
+  *The freight offer model* &nbsp;
 
 
-  | freightOffer | Description | Type | Cardinality | Constraint
-  / Comment | 
-  
+  | freightOffer | Description | Type | Cardinality | Constraint / Comment |
+
   | --- | --- | --- | --- | --- |
-  
+
   | offerId | Unique Id of the freight | String | 1 | Readonly |
-  
-  | externalId | external Id of the freight provided by the provider | String | 0\..1 | &nbsp; |
-  
-  | paymentDue | Due date for the payment of the transport | Integer | 0\..1 | &gt;0 |
-  
+
+  | externalId | external Id of the freight provided by the provider | String |
+  0\..1 | &nbsp; |
+
+  | paymentDue | Due date for the payment of the transport | Integer | 0\..1 |
+  &gt;0 |
+
   | pickUp | Pickup information | FreightLocation | 1 | &nbsp; |
-  
+
   | delivery | Delivery information | FreightLocation | 1 | &nbsp; |
-  
+
   | freightDescritpion | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-  
-  | freightDescritpion.type | Goods type | Enum | 0\..1 | reference data goods type |
-  
+
+  | freightDescritpion.type | Goods type | Enum | 1 | reference data goods type
+  |
+
   | freightDescritpion.netWeight | Weight | Number | 0\..1 | 0-999 |
-  
+
   | freightDescritpion.length | Length | Number | 0\..1 | 0-25 |
-  
+
   | freightDescritpion.volume | Volume | Number | 0\..1 | 0-999 |
-  
-  | freightDescritpion.temperatureControlled | Temperature controlled | Boolean | 0\..1 | &nbsp; |
-  
-  | freightDescritpion.hazardousness.hazardous | Hazardous indicator | Boolean | 0\..1 | &nbsp; |
-  
-  | freightDescritpion.requiredVehicles | Required vehicles type | Array | 0\..\* | see reference data vehicle |
-  
+
+  | freightDescritpion.temperatureControlled | Temperature controlled | Boolean
+  | 0\..1 | &nbsp; |
+
+  | freightDescritpion.hazardousness.hazardous | Hazardous indicator | Boolean |
+  0\..1 | &nbsp; |
+
+  | freightDescritpion.requiredVehicles | Required vehicles type | Array |
+  0\..\* | see reference data vehicle |
+
   | owner.login | Username of the owner of the offer | String | 1 | &nbsp; |
-  
+
   | addInfo.comment | Comment | String | 0\..1 | &nbsp; |
 
 
