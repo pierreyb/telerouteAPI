@@ -12,6 +12,7 @@ content_markdown: |-
   * pickup address
   * pickup interval start date (time is optional)
   * delivery address
+  * freight description type
   * freight description netWeight
   * freight description length (except for bulk)
   * freight description volume (only for bulk)
