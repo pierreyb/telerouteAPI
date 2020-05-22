@@ -30,7 +30,7 @@ right_code_blocks:
 
       --header 'Content-Type: application/json' \
 
-      --header 'Accept-Version: “v1”' \
+      --header 'Accept-Version: v1' \
 
       --data-raw '{
         "externalId": "Externalid",

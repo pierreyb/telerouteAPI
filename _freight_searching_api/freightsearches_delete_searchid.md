@@ -18,7 +18,7 @@ right_code_blocks:
 
       --header 'Authorization: Bearer eyJh...' \
 
-      --header 'Accept-Version: “v1”' 
+      --header 'Accept-Version: v1' 
     title: Request example
     language: bash
 ---

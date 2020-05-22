@@ -19,7 +19,7 @@ right_code_blocks:
       curl --location --request PUT
             'https://api.fx.wktransportservices.com/freight/offers/aaaasfbf4mgaf' \
             --header 'Authorization: Bearer eyJh...' \
-            --header 'Accept-Version: “v1”' \
+            --header 'Accept-Version: v1' \
             --data-raw '{
               "externalId": "Externalid",
               "pickUp": {
@@ -64,4 +64,4 @@ right_code_blocks:
              }'
     title: Request example
     language: bash
---- 
+---
