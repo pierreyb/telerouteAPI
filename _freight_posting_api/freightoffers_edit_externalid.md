@@ -1,6 +1,6 @@
 ---
 title: '/freight/offers/:externalId'
-position_number: 3
+position_number: 4
 type: put
 description: Create or update a freight offer based on an external ID
 parameters:
