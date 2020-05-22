@@ -1,6 +1,6 @@
 ---
 title: '/freight/offers/:externalId'
-position_number: 4
+position_number: 5
 type: delete
 description: Delete a freight offer based on an external ID
 parameters:
