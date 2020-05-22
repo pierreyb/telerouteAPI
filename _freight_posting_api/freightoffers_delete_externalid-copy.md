@@ -1,8 +1,8 @@
 ---
-title: '/freight/offers/:externalId'
-position_number: 5
-type: delete
-description: Delete a freight offer based on an external ID
+title: '/freight/offers/:offerId'
+position_number: 3
+type: get
+description: Retrieve a freight offer based on an offer ID
 parameters:
   - name:
     content:
@@ -13,7 +13,7 @@ left_code_blocks:
     language:
 right_code_blocks:
   - code_block: |
-      curl --location --request DELETE
+      curl --location --request GET
             'https://api.fx.wktransportservices.com/freight/offers/aaaasfbf4mgaf' \
             --header 'Authorization: Bearer eyJh...' \
             --header 'Accept-Version: v1' 
