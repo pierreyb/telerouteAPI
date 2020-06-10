@@ -54,20 +54,22 @@ content_markdown: >-
   | freightDescritpion.hazardousness.hazardous | Hazardous indicator | Boolean |
   0\..1 | &nbsp; |
 
-  | freightDescritpion.hazardousness.adrClass | ADR Class | Enum |
-  0\..1 | reference data ADR class |
+  | freightDescritpion.hazardousness.adrClass | ADR Class | Enum | 0\..1 |
+  reference data ADR class |
 
   | freightDescritpion.requiredVehicles | Required vehicles type | Array |
   0\..\* | see reference data vehicle |
-  
+
   | freightDescritpion.transportPackage | &nbsp; | &nbsp; | 0\..1 | &nbsp; |
-  
-  | freightDescritpion.transportPackage.packaging | packaging type | String | 1 | PALLET |
-  
-  | freightDescritpion.transportPackage.number | &nbsp; | Integer | 1 | 0-99 |
-  
-  | freightDescritpion.transportPackage.exchangeable | Exchangeable packaging indicator | Boolean | 1 | &nbsp; |
-  
+
+  | freightDescritpion.transportPackage.packaging | packaging type | String | 1
+  | PALLET |
+
+  | freightDescritpion.transportPackage.number | &nbsp; | Integer | 1 | 1-99 |
+
+  | freightDescritpion.transportPackage.exchangeable | Exchangeable packaging
+  indicator | Boolean | 1 | &nbsp; |
+
   | owner.login | Username of the owner of the offer | String | 1 | &nbsp; |
 
   | addInfo.comment | Comment | String | 0\..1 | &nbsp; |
