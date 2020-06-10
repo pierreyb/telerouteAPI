@@ -62,7 +62,7 @@ content_markdown: >-
   
   | freightDescritpion.transportPackage | &nbsp; | &nbsp; | 0\..1 | &nbsp; |
   
-  | freightDescritpion.transportPackage.packaging | packaging type | "PALLET" | 1 | &nbsp; |
+  | freightDescritpion.transportPackage.packaging | packaging type | String | 1 | PALLET |
   
   | freightDescritpion.transportPackage.number | &nbsp; | Integer | 1 | 0-99 |
   
