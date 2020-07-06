@@ -4,7 +4,7 @@ position_number: 1
 content_markdown: >-
   Vehicle offers contain the information related to available vehicle.
 
-  ##### The Vehicle offer model
+  *The Vehicle offer model*
 
   &nbsp;
 
@@ -24,7 +24,7 @@ content_markdown: >-
   
   | VehicleDescritpion | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
   
-  | VehicleDescritpion.type | Vehicle type | String | 1 | see reference data  |
+  | VehicleDescritpion.type | Vehicle type | String | 1 | s[reference data vehicle type](#reference_datavehicles-type){: target="_blank"} |
   
   | VehicleDescritpion.netWeight | Available weight | Number | 0\..1 | 0-999 |
   
@@ -46,8 +46,7 @@ content_markdown: >-
 
   | address | &nbsp; | String | 0\..1 | &nbsp; |
 
-  | address.country | Country code | String | 1 | supported list in reference
-  data |
+  | address.country | Country code | String | 1 | [reference country code](#reference_datacountry){: target="_blank"} |
 
   | address.city | City | String | 1 | &nbsp; |
 
@@ -67,7 +66,7 @@ content_markdown: >-
   | interval.end | Latest time at location | DateTime | 0\..1 | Format :
   2020-04-24T11:00:00+02:00 |
   
-  | regions | &nbsp; | array | 0..10 | supported list in reference data |
+  | regions | &nbsp; | array | 0..10 | [reference regions code](#reference_datateleroute-regions){: target="_blank"} |
 
 
   &nbsp;
