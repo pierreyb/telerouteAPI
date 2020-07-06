@@ -51,8 +51,8 @@ content_markdown: >-
 
   | loadingDescritpion | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
-  | loadingDescritpion.goods | Goods type | Enum | 0\..1 | see supported list in
-  reference data |
+  | loadingDescritpion.goods | Goods type | Enum | 0\..1 | [reference data goods
+  type](#reference_datagoods-type){: target="_blank"} |
 
   | loadingDescritpion.weight | Weight | Integer | 0\..1 | 0-999 |
 
@@ -80,8 +80,7 @@ content_markdown: >-
 
   | address | &nbsp; | String | 0\..1 | &nbsp; |
 
-  | address.country | Country code | String | 1 | see supported list in
-  reference data |
+  | address.country | Country code | String | 1 | [reference country code](#reference_datacountry){: target="_blank"} |
 
   | address.city | City | String | 1 | &nbsp; |
 
@@ -95,8 +94,7 @@ content_markdown: >-
 
   | address.coordinates.longitude | &nbsp; | Float | 1 | between -180 and 180 |
 
-  | regions | List of regions | Enum | 0\..10 | see supported list in reference
-  data |
+  | regions | List of regions | Enum | 0\..10 | [reference regions code](#reference_datateleroute-regions){: target="_blank"} |
 
 
   &nbsp;
