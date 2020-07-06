@@ -24,53 +24,50 @@ content_markdown: >-
 
 
   | freightSearches | Description | Type | Cardinality | Constraint / Comment |
-  a |
 
-  | --- | --- | --- | --- | --- | --- |
+  | --- | --- | --- | --- | --- |
 
-  | searchId | Unique Id of the search | String | 1 | Readonly | &nbsp; |
+  | searchId | Unique Id of the search | String | 1 | Readonly |
 
   | state | Status of the search | Enum | 1 | Possible values: ACTIVE or
-  UNACTIVE | &nbsp; |
+  UNACTIVE |
 
   | departure | Departure criteria of the search | FreightSearchLocation | 1 |
-  &nbsp; | &nbsp; |
+  &nbsp; |
 
   | arrival | Arrival criteria of the search | FreightSearchLocation | 1 |
-  &nbsp; | &nbsp; |
+  &nbsp; |
 
   | loadingInterval | Loading criteria of the search | &nbsp; | &nbsp; | 1 |
-  &nbsp; |
 
   | loadingInterval.loadingTime | fix type of interval | Enum | 0\..1 | Possible
   value : NO\_DATE, AS\_OF, UNTIL, BETWEEN, ON, D0, D1, D0D1, D0D1D2, D1D2 |
-  &nbsp; |
 
   | loadingInterval.start | Start date criteria for the search | Date | 0\..1 |
-  format : 2019-04-05 | &nbsp; |
+  format : 2019-04-05 |
 
   | loadingInterval.end | End date criteria for the search | Date | 0\..1 |
-  format : 2019-04-05 | &nbsp; |
+  format : 2019-04-05 |
 
-  | loadingDescritpion | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  | loadingDescritpion | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
   | loadingDescritpion.goods | Goods type | Enum | 0\..1 | see supported list in
-  reference data | &nbsp; |
+  reference data |
 
-  | loadingDescritpion.weight | Weight | Integer | 0\..1 | 0-999 | &nbsp; |
+  | loadingDescritpion.weight | Weight | Integer | 0\..1 | 0-999 |
 
-  | loadingDescritpion.length | Length | Integer | 0\..1 | 0-25 | &nbsp; |
+  | loadingDescritpion.length | Length | Integer | 0\..1 | 0-25 |
 
-  | loadingDescritpion.volume | Volume | Integer | 0\..1 | 0-999 | &nbsp; |
+  | loadingDescritpion.volume | Volume | Integer | 0\..1 | 0-999 |
 
   | loadingDescritpion.temperatureControlled | Only search for temperature
-  controlled freight | Boolean | 0\..1 | &nbsp; | &nbsp; |
+  controlled freight | Boolean | 0\..1 | &nbsp; |
 
   | loadingDescritpion.hazardous | Only search for hazardous freight | Boolean |
-  0\..1 | &nbsp; | &nbsp; |
+  0\..1 | &nbsp; |
 
   | Vehicles | Required vehicles type | String | 0\..\* | see supported list in
-  reference data | &nbsp; |
+  reference data |
 
 
   &nbsp;
