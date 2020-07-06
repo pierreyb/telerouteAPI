@@ -23,55 +23,68 @@ content_markdown: >-
   #### Freight search data model
 
 
-  | freightSearches  | Description | Type | Cardinality | Constraint / Comment |
-  
-  | --- | --- | --- | --- | --- |
-  
-  | searchId | Unique Id of the search | String | 1 | Readonly |
-  
-  | state | Status of the search | Enum | 1 | Possible values: ACTIVE or UNACTIVE |
-  
-  | departure | Departure criteria of the search | FreightSearchLocation | 1 | &nbsp; |
-  
-  | arrival | Arrival criteria of the search | FreightSearchLocation | 1 | &nbsp; |
-  
-  | loadingInterval | Loading criteria of the search | &nbsp; | &nbsp; | 1 | &nbsp; |
-  
+  | freightSearches | Description | Type | Cardinality | Constraint / Comment |
+  a |
+
+  | --- | --- | --- | --- | --- | --- |
+
+  | searchId | Unique Id of the search | String | 1 | Readonly | &nbsp; |
+
+  | state | Status of the search | Enum | 1 | Possible values: ACTIVE or
+  UNACTIVE | &nbsp; |
+
+  | departure | Departure criteria of the search | FreightSearchLocation | 1 |
+  &nbsp; | &nbsp; |
+
+  | arrival | Arrival criteria of the search | FreightSearchLocation | 1 |
+  &nbsp; | &nbsp; |
+
+  | loadingInterval | Loading criteria of the search | &nbsp; | &nbsp; | 1 |
+  &nbsp; |
+
   | loadingInterval.loadingTime | fix type of interval | Enum | 0\..1 | Possible
-  value : NO_DATE, AS_OF, UNTIL, BETWEEN, ON, D0, D1, D0D1, D0D1D2, D1D2 |
-  
-  | loadingInterval.start | Start date criteria for the search | Date | 0\..1 | format
-  : 2019-04-05 | 
-  
-  | loadingInterval.end | End date criteria for the search | Date | 0\..1 | format
-  : 2019-04-05 |
-  
-  | loadingDescritpion | &nbsp; | &nbsp; | &nbsp; | &nbsp; | 
-  
-  | loadingDescritpion.goods | Goods type | Enum | 0\..1 | see supported list in reference data |
-  
-  | loadingDescritpion.weight | Weight | Integer | 0\..1 | 0-999 |
-  
-  | loadingDescritpion.length | Length | Integer | 0\..1 | 0-25 |
-  
-  | loadingDescritpion.volume | Volume | Integer | 0\..1 | 0-999 |
-  
-  | loadingDescritpion.temperatureControlled | Only search for temperature controlled freight | Boolean | 0\..1 | &nbsp; |
-  
-  | loadingDescritpion.hazardous | Only search for hazardous freight | Boolean | 0\..1 | &nbsp; |
-  
-  | Vehicles | Required vehicles type | String | 0\..* | see supported list in reference data |
+  value : NO\_DATE, AS\_OF, UNTIL, BETWEEN, ON, D0, D1, D0D1, D0D1D2, D1D2 |
+  &nbsp; |
 
-   &nbsp;
+  | loadingInterval.start | Start date criteria for the search | Date | 0\..1 |
+  format : 2019-04-05 | &nbsp; |
 
-  | FreightSearchLocation | Description | Type | Cardinality |
-  Constraint / Comment |
+  | loadingInterval.end | End date criteria for the search | Date | 0\..1 |
+  format : 2019-04-05 | &nbsp; |
+
+  | loadingDescritpion | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+
+  | loadingDescritpion.goods | Goods type | Enum | 0\..1 | see supported list in
+  reference data | &nbsp; |
+
+  | loadingDescritpion.weight | Weight | Integer | 0\..1 | 0-999 | &nbsp; |
+
+  | loadingDescritpion.length | Length | Integer | 0\..1 | 0-25 | &nbsp; |
+
+  | loadingDescritpion.volume | Volume | Integer | 0\..1 | 0-999 | &nbsp; |
+
+  | loadingDescritpion.temperatureControlled | Only search for temperature
+  controlled freight | Boolean | 0\..1 | &nbsp; | &nbsp; |
+
+  | loadingDescritpion.hazardous | Only search for hazardous freight | Boolean |
+  0\..1 | &nbsp; | &nbsp; |
+
+  | Vehicles | Required vehicles type | String | 0\..\* | see supported list in
+  reference data | &nbsp; |
+
+
+  &nbsp;
+
+
+  | FreightSearchLocation | Description | Type | Cardinality | Constraint /
+  Comment |
 
   | --- | --- | --- | --- | --- |
 
   | address | &nbsp; | String | 0\..1 | &nbsp; |
 
-  | address.country | Country code | String | 1 | see supported list in reference data |
+  | address.country | Country code | String | 1 | see supported list in
+  reference data |
 
   | address.city | City | String | 1 | &nbsp; |
 
@@ -85,7 +98,8 @@ content_markdown: >-
 
   | address.coordinates.longitude | &nbsp; | Float | 1 | between -180 and 180 |
 
-  | regions | List of regions | Enum | 0\..10 | see supported list in reference data |
+  | regions | List of regions | Enum | 0\..10 | see supported list in reference
+  data |
 
 
   &nbsp;
