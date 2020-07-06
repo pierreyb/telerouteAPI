@@ -58,7 +58,7 @@ content_markdown: >-
   [reference data ADR class](#reference_dataadr-classes){: target="_blank"} |
 
   | freightDescritpion.requiredVehicles | Required vehicles type | Array |
-  0\..\* | [reference data vehicle](#reference_datavehicles-type){: target="_blank"} |
+  0\..\* | [reference data vehicle type](#reference_datavehicles-type){: target="_blank"} |
 
   | freightDescritpion.transportPackage | &nbsp; | &nbsp; | 0\..1 | &nbsp; |
 
