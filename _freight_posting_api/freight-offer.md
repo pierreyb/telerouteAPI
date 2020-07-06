@@ -39,8 +39,8 @@ content_markdown: >-
 
   | freightDescritpion | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
-  | freightDescritpion.type | Goods type | Enum | 1 | reference data goods type
-  |
+  | freightDescritpion.type | Goods type | Enum | 1 | [reference data goods
+  type](#reference_datagoods-type) |
 
   | freightDescritpion.netWeight | Weight | Number | 0\..1 | 0-999 |
 
