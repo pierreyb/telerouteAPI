@@ -55,10 +55,10 @@ content_markdown: >-
   0\..1 | &nbsp; |
 
   | freightDescritpion.hazardousness.adrClass | ADR Class | Enum | 0\..1 |
-  reference data ADR class |
+  [reference data ADR class](#reference_dataadr-classes){: target="_blank"} |
 
   | freightDescritpion.requiredVehicles | Required vehicles type | Array |
-  0\..\* | see reference data vehicle |
+  0\..\* | [reference data vehicle](#reference_datavehicles-type){: target="_blank"} |
 
   | freightDescritpion.transportPackage | &nbsp; | &nbsp; | 0\..1 | &nbsp; |
 
@@ -84,8 +84,8 @@ content_markdown: >-
 
   | address | &nbsp; | String | 0\..1 | &nbsp; |
 
-  | address.country | Country code | String | 1 | supported list in reference
-  data |
+  | address.country | Country code | String | 1 | 
+  [reference country code](#reference_datacountry){: target="_blank"} |
 
   | address.city | City | String | 1 | &nbsp; |
 
