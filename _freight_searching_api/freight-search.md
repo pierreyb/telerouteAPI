@@ -66,8 +66,7 @@ content_markdown: >-
   | loadingDescritpion.hazardous | Only search for hazardous freight | Boolean |
   0\..1 | &nbsp; |
 
-  | Vehicles | Required vehicles type | String | 0\..\* | see supported list in
-  reference data |
+  | Vehicles | Required vehicles type | String | 0\..\* | [reference data vehicle](#reference_datavehicles-type) |
 
 
   &nbsp;
