@@ -4,36 +4,36 @@ position_number: 1
 content_markdown: >-
   Vehicle offers contain the information related to available vehicle.
 
-  *The Vehicle offer model*
 
-  &nbsp;
+  *The Vehicle offer model* &nbsp;
 
 
-  | VehicleOffer | Description | Type | Cardinality | Constraint
-  / Comment | 
-  
+  | VehicleOffer | Description | Type | Cardinality | Constraint / Comment |
+
   | --- | --- | --- | --- | --- |
-  
+
   | offerId | Unique Id of the vehicle | String | 1 | Readonly |
-  
-  | externalId | external Id of the vehicle provided by the provider | String | 0\..1 | &nbsp; |
-  
+
+  | externalId | external Id of the vehicle provided by the provider | String |
+  0\..1 | &nbsp; |
+
   | departure | Departure information | VehicleLocation | 0\..1 | &nbsp; |
-  
+
   | Arrival | Arrival information | VehicleLocation | 0\..1 | &nbsp; |
-  
+
   | VehicleDescritpion | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-  
-  | VehicleDescritpion.type | Vehicle type | String | 1 | s[reference data vehicle type](#reference_datavehicles-type){: target="_blank"} |
-  
+
+  | VehicleDescritpion.type | Vehicle type | String | 1 | [reference data
+  vehicle type](#reference_datavehicles-type){: target="_blank"} |
+
   | VehicleDescritpion.netWeight | Available weight | Number | 0\..1 | 0-999 |
-  
+
   | VehicleDescritpion.length | Available length | Number | 0\..1 | 0-25 |
-  
+
   | VehicleDescritpion.volume | Available volume | Number | 0\..1 | 0-999 |
-  
+
   | owner.login | Username of the owner of the offer | String | 1 | &nbsp; |
-  
+
   | addInfo.comment | Comment | String | 0\..1 | &nbsp; |
 
 
@@ -46,7 +46,8 @@ content_markdown: >-
 
   | address | &nbsp; | String | 0\..1 | &nbsp; |
 
-  | address.country | Country code | String | 1 | [reference country code](#reference_datacountry){: target="_blank"} |
+  | address.country | Country code | String | 1 | [reference country
+  code](#reference_datacountry){: target="_blank"} |
 
   | address.city | City | String | 1 | &nbsp; |
 
@@ -65,8 +66,9 @@ content_markdown: >-
 
   | interval.end | Latest time at location | DateTime | 0\..1 | Format :
   2020-04-24T11:00:00+02:00 |
-  
-  | regions | &nbsp; | array | 0..10 | [reference regions code](#reference_datateleroute-regions){: target="_blank"} |
+
+  | regions | &nbsp; | array | 0\..10 | [reference regions
+  code](#reference_datateleroute-regions){: target="_blank"} |
 
 
   &nbsp;
