@@ -37,7 +37,7 @@ content_markdown: >-
 
   | delivery | Delivery information | FreightLocation | 1 | &nbsp; |
 
-  | freightDescritpion | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  | freightDescritpion | &nbsp; | &nbsp; | 1 | &nbsp; |
 
   | freightDescritpion.type | Goods type | Enum | 1 | [reference data goods
   type](#reference_datagoods-type){: target="_blank"} |
@@ -58,7 +58,8 @@ content_markdown: >-
   [reference data ADR class](#reference_dataadr-classes){: target="_blank"} |
 
   | freightDescritpion.requiredVehicles | Required vehicles type | Array |
-  0\..\* | [reference data vehicle type](#reference_datavehicles-type){: target="_blank"} |
+  0\..\* | [reference data vehicle type](#reference_datavehicles-type){:
+  target="_blank"} |
 
   | freightDescritpion.transportPackage | &nbsp; | &nbsp; | 0\..1 | &nbsp; |
 
@@ -84,8 +85,8 @@ content_markdown: >-
 
   | address | &nbsp; | String | 0\..1 | &nbsp; |
 
-  | address.country | Country code | String | 1 | 
-  [reference country code](#reference_datacountry){: target="_blank"} |
+  | address.country | Country code | String | 1 | [reference country
+  code](#reference_datacountry){: target="_blank"} |
 
   | address.city | City | String | 1 | &nbsp; |
 
