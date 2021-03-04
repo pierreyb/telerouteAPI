@@ -2,6 +2,11 @@
 title: Freight offer
 position_number: 1
 content_markdown: >-
+  Freight API have been upgraded to v2 (Accept-version: v2)
+
+  {: .info}
+
+
   Freight offer contain the information related to the goods to be transported.
   In the context of the freight exchange application, the freight are goods
   packaged in an indivisible batch and which needs to be moved from a loading
@@ -101,10 +106,10 @@ content_markdown: >-
   | interval | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
   | interval.start | Earliest time at location | DateTime | 0\..1 | Format :
-  2020-04-24T11:00:00+02:00 |
+  2020-04-24T11:00:00 |
 
   | interval.end | Latest time at location | DateTime | 0\..1 | Format :
-  2020-04-24T11:00:00+02:00 |
+  2020-04-24T11:00:00 |
 
 
   &nbsp;
