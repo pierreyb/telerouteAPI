@@ -19,7 +19,7 @@ right_code_blocks:
       curl --location --request PUT
             'https://api.fx.wktransportservices.com/freight/offers/aaaasfbf4mgaf' \
             --header 'Authorization: Bearer eyJh...' \
-            --header 'Accept-Version: v1' \
+            --header 'Accept-Version: v2' \
             --data-raw '{
               "externalId": "Externalid",
               "pickUp": {
@@ -31,8 +31,8 @@ right_code_blocks:
                    }
                  },
                  "interval": {
-                    "start": "2020-04-24T10:00:00+01:00",
-                    "end": "2020-04-24T18:00:00+01:00"
+                    "start": "2020-04-24T10:00:00",
+                    "end": "2020-04-24T18:00:00"
                  }
               },
               "delivery": {
