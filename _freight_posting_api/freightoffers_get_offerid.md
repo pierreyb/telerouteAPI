@@ -16,7 +16,7 @@ right_code_blocks:
       curl --location --request GET
             'https://api.fx.wktransportservices.com/freight/offers/aaaasfbf4mgaf' \
             --header 'Authorization: Bearer eyJh...' \
-            --header 'Accept-Version: v1' 
+            --header 'Accept-Version: v2' 
     title: Request example
     language: bash
 ---
