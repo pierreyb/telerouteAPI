@@ -30,7 +30,7 @@ right_code_blocks:
 
       --header 'Content-Type: application/json' \
 
-      --header 'Accept-Version: v1' \
+      --header 'Accept-Version: v2' \
 
       --data-raw '{
         "externalId": "Externalid",
@@ -43,8 +43,8 @@ right_code_blocks:
             }
           },
           "interval": {
-                "start": "2020-04-24T10:00:00+01:00",
-                "end": "2020-04-24T18:00:00+01:00"
+                "start": "2020-04-24T10:00:00",
+                "end": "2020-04-24T18:00:00"
           }
         },
         "delivery": {
