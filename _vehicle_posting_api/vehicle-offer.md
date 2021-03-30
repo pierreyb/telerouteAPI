@@ -2,6 +2,11 @@
 title: Vehicle offer
 position_number: 1
 content_markdown: >-
+  Vehicle API have been upgraded to v2 (Accept-version: v2)
+
+  {: .info}
+
+
   Vehicle offers contain the information related to available vehicle.
 
 
@@ -62,13 +67,18 @@ content_markdown: >-
   | interval | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
   | interval.start | Earliest time at location | DateTime | 0\..1 | Format :
-  2020-04-24T11:00:00+02:00 |
+  2020-04-24T11:00:00 |
 
   | interval.end | Latest time at location | DateTime | 0\..1 | Format :
-  2020-04-24T11:00:00+02:00 |
+  2020-04-24T11:00:00 |
 
   | regions | &nbsp; | array | 0\..10 | [reference regions
   code](#reference_datateleroute-regions){: target="_blank"} |
+
+
+  | &nbsp; | &nbsp; |
+
+  | &nbsp; | &nbsp; |
 
 
   &nbsp;
