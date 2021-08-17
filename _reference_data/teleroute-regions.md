@@ -625,27 +625,6 @@ content_markdown: |-
   | MD | Moldova (the Republic of) |
   | ME | Montenegro |
   | NO | Norway |
-  | NO-AA | Aust-Agder |
-  | NO-AK | Akershus |
-  | NO-BU | Buskerud |
-  | NO-FI | Finnmark |
-  | NO-FIN | Finnmark |
-  | NO-HE | Hedemark |
-  | NO-HO | Hordaland |
-  | NO-MR |  |
-  | NO-NO | Nordland |
-  | NO-NT | Nord Trondelag |
-  | NO-OP | Oppland |
-  | NO-OSL | Oslo |
-  | NO-OST |  |
-  | NO-RO | Rogaland |
-  | NO-SF | Sogn Og Fjordane |
-  | NO-ST | Sor Trondelag |
-  | NO-TE | Telemark |
-  | NO-TR | Troms |
-  | NO-TRO | Troms |
-  | NO-VA | Vest-Agder |
-  | NO-VE | Vestfold |
   | NL | Netherlands (the) |
   | NL-DR | Drente |
   | NL-78 |  |
